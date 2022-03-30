@@ -11,12 +11,14 @@ console.log (`A operação de ${operacao} de ${numero1} com ${numero2} resulta e
 numero1 = 15;
 console.log (`Repare que agora a variável número1 acabou de assumir o valor ${numero1}!`);
 console.log (`Update: O resultado da operação de ${operacao} de ${numero1} com ${numero2} resulta em ${numero1 + numero2}.`);
-// Repare que agora a variável número1 acabou de assumir o valor 15!
-// Update: O resultado da operação de soma de 15 com 20 resulta em 35.
+/* Output
+Repare que agora a variável número1 acabou de assumir o valor 15!
+Update: O resultado da operação de soma de 15 com 20 resulta em 35.
+*/
 
 
 		
-// 	2 - Var
+// 2 - Var
 var nome = "Enzo"
 var sobrenome = "Lemos"
 var idade = 17
@@ -34,7 +36,7 @@ console.log(`Registro estudantil:
 	Aptidões demonstradas em: ${aptidoes}
 `);
 
-/*
+/* Output
 Registro estudantil:
 	Aluno: Enzo Lemos
 	Idade: 17 anos
@@ -61,7 +63,6 @@ console.log('Peso:', registro_infantil.peso,'kg');
 console.log('Altura:', registro_infantil.altura,'cm');
 console.log('Aferido em:', registro_infantil.data);
 
-
 /* Output
 Nome: Lucas
 Idade: 3 anos
@@ -78,7 +79,6 @@ registro_infantil.peso = 13.65
 registro_infantil.altura = 97.5 
 registro_infantil.data = '30/03/2022'
 
-
 /* Output após nova impressão
 Nome: Lucas
 Idade: 4 anos
@@ -86,4 +86,3 @@ Peso: 13.65 kg
 Altura: 97.5 cm
 Aferido em: 30/03/2022
 */
-
