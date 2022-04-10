@@ -1,4 +1,4 @@
-// Escreva um algoritmo que retorne ao usuário se o mesmo é obrigado ou não a votar, de acordo com a idade e status de alfabetização informadas.
+// Escreva um algoritmo que retorne ao usuário se o mesmo é obrigado ou não a votar, de acordo com a idade e status de alfabetização informados.
 idade = 19;
 alfabetizado = false;
 
@@ -13,14 +13,14 @@ if (alfabetizado == false){
 		console.log('Você tem '+ idade + ' anos e, dessa forma, ainda não pode se alistar nem votar.')
 	}else if (idade >= 16 && idade < 18){
 		console.log('Você tem '+ idade + ' anos e, portanto, o alistamento eleitoral e voto são facultativos.')    
-	}else if (idade >= 18 && idade <= 70){
+	}else if (idade >= 18 && idade < 70){
 		console.log('Você tem ' + idade + ' anos e é alfabetizado, portanto é obrigado(a) a votar.')
 	}else{
 		console.log('Você tem ' + idade + ' anos e, para maiores de 70 anos, o voto é facultativo.')
 	}
 }
 
-/* Alguns outputs gerados
+/* Alguns outputs gerados:
 (exemplo acima)
 Retornou: Você declarou ser analfabeto(a) e, portanto, seu alistamento eleitoral e voto são facultativos.
 
