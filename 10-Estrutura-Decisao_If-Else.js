@@ -1,3 +1,6 @@
+/* Escreva um algoritmo que verifique a validade de um ID e da senha fornecidos por um usuário. 
+Caso a entrada do ID e/ou da senha não corespondam ao esperado, o programa deve reportar isso.*/
+
 let login = prompt('Por favor, digite seu ID de usuário:'); 
 if(login === 'marialemos84'){
 	console.log('Login confere...')
