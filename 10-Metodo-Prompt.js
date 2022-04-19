@@ -20,7 +20,7 @@ console.log(`
 `)
 
 /* Retorna:
-	Exibe box: Qual o seu nome? | Mensagem do text box: Digite apenas seu primeiro nome // Input: Magda	 
+	Exibe box: Qual o seu nome? | Mensagem do text box: Digite apenas seu primeiro nome // Input realizado: Magda	 
 	Imprime: Olá, Magda. Seja bem-vindo(a) ao sistema.
 	
 	Por favor, qual produto você deseja cadastrar? // Input: Jaqueta Jeans Feminina
@@ -31,5 +31,5 @@ console.log(`
 	Ficha do produto 
 	- Nome: Jaqueta Jeans Feminina 
 	- Quantidade em estoque: 12 unidades
-	- Preço de venda R$ 109.00 
+	- Preço de venda R$ 109.90 
 */
