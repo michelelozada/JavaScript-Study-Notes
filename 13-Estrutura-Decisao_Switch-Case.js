@@ -1,5 +1,5 @@
 /* Escreva um algoritmo que leia dois números e faça as operações de soma, subtração, multiplicação e divisão.
-Para que o usuário escolha a opções desejada, crie um menu utilizando a estrutura switch case. */
+Para que o usuário escolha a operação desejada, crie um menu com as 4 opções, utilizando a estrutura switch case. */
 
 // As arrow functions para os cálculos
 let soma = (num1,num2) => num1 + num2;
