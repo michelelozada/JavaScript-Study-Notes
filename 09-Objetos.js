@@ -1,3 +1,10 @@
+/*
+ *  Objetos em JavaScript
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
+
 //1 - Declarando o objeto literal livro
 const livro = { 
 	titulo: 'O Poder do Hábito', 

@@ -1,3 +1,10 @@
+/*
+ *  Estrutura de repetição - Loop For
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
+
 // 1 - Escreva um algoritmo que gere a tabuada de multiplicação do 5
 for(var multiplicador = 1; multiplicador < 11; multiplicador++){
     console.log('5 x ' + multiplicador + ' = ' + multiplicador * 5);

@@ -1,3 +1,10 @@
+/*
+ *  Operadores de string
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
+
 //1 - Operador de concatenação
 let fullName = 'Leonardo Dias'; 
 console.log('Olá,' + ' ' + fullName + ', seja bem-vindo!'); 

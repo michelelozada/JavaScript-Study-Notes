@@ -1,3 +1,10 @@
+/*
+ *  Estrutura de repetição - Switch Case
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+ 
+ 
 /* Escreva um algoritmo que leia dois números e faça as operações de soma, subtração, multiplicação e divisão.
 Para que o usuário escolha a operação desejada, crie um menu com as 4 opções, utilizando a estrutura switch case. */
 

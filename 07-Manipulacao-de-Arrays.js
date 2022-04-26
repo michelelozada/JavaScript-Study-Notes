@@ -1,3 +1,10 @@
+/*
+ *  Manipulação de arrays
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
+
 // 1 - O array de exemplo:
 const osSimpsons = ['Homer','Merge','Bart','Lisa'];
 

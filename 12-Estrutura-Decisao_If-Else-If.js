@@ -1,3 +1,10 @@
+/*
+ *  Estrutura de decisão - If Else If
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
+
 // Escreva um algoritmo que retorne ao usuário se o mesmo é obrigado ou não a votar, de acordo com a idade e status de alfabetização informados.
 idade = 19;
 alfabetizado = false;

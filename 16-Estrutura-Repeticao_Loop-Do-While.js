@@ -1,3 +1,10 @@
+/*
+ *  Estrutura de repetição - Loop Do... While
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
+
 /* Escreva um algoritmo que solicite leitura de um número de 1 a 10. Quando for digitado o número 7 ou se 
 forem utilizadas pelo usuário suas três chances, o programa deve ser encerrado; caso contrário, deve continuar 
 aparecendo a solicitação de leitura do número. */

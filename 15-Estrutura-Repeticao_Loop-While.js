@@ -1,3 +1,10 @@
+/*
+ *  Estrutura de repetição - Loop While
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
+
 // Dada uma lista de tarefas, apresente-a de forma sequencial para o usuário: 
 
 let taskDescription = [

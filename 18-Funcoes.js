@@ -1,3 +1,10 @@
+/*
+ *  Funções
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
+
 /* Dado o seguinte array de números [1,2,3,4,5,6,7,8,9,10] e um número (que vamos considerar aqui como sendo 7),
  escreva um algoritmo que crie uma nova lista para armazenar *apenas* os valores menores que 'num' */
 

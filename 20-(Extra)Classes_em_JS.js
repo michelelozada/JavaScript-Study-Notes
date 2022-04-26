@@ -1,3 +1,10 @@
+/*
+ *  (Extra) Classes em JavaScript
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
+
 // 1 - Criando uma classe chamada Massas
 class Massas {
 	constructor(nome,preco,quantidade){  // 2 - Declarando o método constructor 

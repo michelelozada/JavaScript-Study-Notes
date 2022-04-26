@@ -1,3 +1,9 @@
+/*
+ *  Operadores lógicos
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
 // 1 - Operador lógico AND
 let hora = 12;
 if(hora >= 10 && hora <= 16){

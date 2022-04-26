@@ -1,3 +1,10 @@
+/*
+ *  Método prompt
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
+
 //Escreva um algoritmo que solicite dados do usuário para cadastramento de um produto
 
 let nome = prompt("Qual o seu nome?", "Digite apenas seu primeiro nome");

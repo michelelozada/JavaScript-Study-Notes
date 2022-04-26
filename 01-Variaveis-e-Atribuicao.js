@@ -1,3 +1,10 @@
+/*
+ *  Variáveis e atribuição de valores
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
+
 // 1.1 - let 
 let operacao = 'soma';
 let numero1 = 10;

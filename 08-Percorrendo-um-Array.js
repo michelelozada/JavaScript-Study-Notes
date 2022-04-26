@@ -1,3 +1,9 @@
+/*
+ *  Percorrendo um array
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
 // 1 - Utilizando a estrutura for
 
 console.log('Quais os itens que eu preciso comprar hoje na feira?')

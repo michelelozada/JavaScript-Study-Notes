@@ -1,3 +1,10 @@
+/*
+ *  Manipulação de strings
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
+
 const frase = 'Só sei que nada sei, e o fato de saber isso, me coloca em vantagem sobre aqueles que acham que sabem alguma coisa.';
 const autor = 'sócrates';
 const ocupacao = 'FILÓSOFO ATENIENSE';

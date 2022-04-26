@@ -1,3 +1,10 @@
+/*
+ *  Tipos de dados
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
+
 // 1 - Dados numéricos
 let a = 7;
 console.log(typeof a)

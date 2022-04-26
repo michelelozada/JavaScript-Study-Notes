@@ -1,3 +1,10 @@
+/*
+ *  Arrow functions
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
+
 /* Escreva um algoritmo que leia dois números e faça as operações de soma, subtração, multiplicação e divisão.
 Devem ser usadas arrow functions para isso */
 

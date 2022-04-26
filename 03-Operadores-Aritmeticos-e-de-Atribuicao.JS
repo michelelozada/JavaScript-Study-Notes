@@ -1,3 +1,10 @@
+/*
+ *  Operadores aritméticos e de atribuição
+ *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  GitHub: @michelelozada
+ */
+
+
 // 1. Operadores aritméticos
 
 let a = 4;
