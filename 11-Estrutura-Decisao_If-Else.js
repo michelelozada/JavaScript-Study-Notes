@@ -1,8 +1,9 @@
 /*
- * 	Estrutura de decisão - If Else
+ *  Estrutura de decisão - If Else 
  *  Repositório: Lógica de Programação e Algoritmos em JavaScript
  *  GitHub: @michelelozada
  */
+
 
 
 /* Escreva um algoritmo que verifique a validade de um ID e da senha fornecidos por um usuário. 
