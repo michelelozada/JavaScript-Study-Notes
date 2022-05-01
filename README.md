@@ -3,6 +3,8 @@
 Repositório em andamento com códigos diversos resultantes do meu estudo de lógica de programação e algoritmos, utilizando o JavaScript como linguagem base.
 
 Script | Descrição 
+:---: | :---
+01 | [Variáveis e atribuição de valores](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/01-Variaveis-e-Atribuicao.js)
 02 | [Tipos de dados](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/02-Tipos-de-Dados.js)
 03 | [Operadores aritméticos e de atribuição](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/03-Operadores-Aritmeticos-e-de-Atribuicao.JS)
 04 | [Operadores lógicos](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/04-Operadores-Logicos.js)
