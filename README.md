@@ -6,7 +6,7 @@ Script | Descrição
 :---: | :---
 01 | [Variáveis e atribuição de valores](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/01-Variaveis-e-Atribuicao.js)
 02 | [Tipos de dados](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/02-Tipos-de-Dados.js)
-03 | [Operadores aritméticos e de atribuição](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/03-Operadores-Aritmeticos-e-de-Atribuicao.JS)
+03 | [Operadores aritméticos e de atribuição](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/03-Operadores-Aritmeticos-e-de-Atribuicao.js)
 04 | [Operadores lógicos](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/04-Operadores-Logicos.js)
 05 | [Operadores de string](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/05-Operadores-de-String.js)
 06 | [Manipulação de strings](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/06-Manipulacao-de-Strings.js)
