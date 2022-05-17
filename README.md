@@ -1,7 +1,5 @@
 # Lógica de Programação e Algoritmos em JavaScript
  
-Repositório em andamento com códigos diversos resultantes do meu estudo de lógica de programação e algoritmos, utilizando o JavaScript como linguagem base.
-
 Script | Descrição 
 :---: | :---
 01 | [Variáveis e atribuição de valores](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/01-Variaveis-e-Atribuicao.js)
