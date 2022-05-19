@@ -1,6 +1,6 @@
-# Lógica de Programação e Algoritmos em JavaScript
- 
-Repositório com códigos diversos resultantes do meu estudo de lógica de programação e algoritmos, utilizando o JavaScript como linguagem base.
+<div align="center">
+	<img src="./assets/js.png">
+	<h1>Lógica de Programação e Algoritmos em JavaScript</h1>
 
 Índice | Descrição 
 :---:  | :---
@@ -24,3 +24,4 @@ Repositório com códigos diversos resultantes do meu estudo de lógica de progr
 18 | [Funções](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/18-Funcoes.js)
 19 | [Arrow functions](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/19-Arrow-Functions.js)
 20 | [(Extra) Classes em JavaScript](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/20-(Extra)Classes-em-JS.js)
+</div>
