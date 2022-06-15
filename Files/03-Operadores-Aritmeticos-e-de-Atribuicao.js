@@ -25,7 +25,7 @@ console.log(a / b)  // 2
 // 1.5 Módulo (resto da divisão)
 console.log(a % b)  // 0 
 
-// 1.6 Exponenciação
+// 1.6 Exponencial
 console.log (a ** b) // 16
 
 // 1.7 Incremento
