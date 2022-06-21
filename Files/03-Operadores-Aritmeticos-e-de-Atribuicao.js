@@ -39,7 +39,7 @@ console.log(b) // 1
 
 // 2. Operadores de atribuição
 
-// 2.1. Atribuição básica
+// 2.1. Atribuição simples
 let n = 6;  
 console.log(n)  // Retorna: 6
 

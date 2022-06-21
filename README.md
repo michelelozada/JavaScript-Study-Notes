@@ -16,7 +16,7 @@
 10 | [Método prompt](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/10-Metodo-Prompt.js)
 11 | [Estrutura de decisão - If Else](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/11-Estrutura-Decisao-If-Else.js)
 12 | [Estrutura de decisão - If Else If](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/12-Estrutura-Decisao-If-Else-If.js)
-13 | [Estrutura de repetição - Switch Case](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/13-Estrutura-Decisao-Switch-Case.js)
+13 | [Estrutura de decisão - Switch Case](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/13-Estrutura-Decisao-Switch-Case.js)
 14 | [Estrutura de repetição - Loop For](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/14-Estrutura-Repeticao-Loop-For.js)
 15 | [Estrutura de repetição - Loop While](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/15-Estrutura-Repeticao-Loop-While.js)
 16 | [Estrutura de repetição - Loop Do... While](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/Files/16-Estrutura-Repeticao-Loop-Do-While.js)

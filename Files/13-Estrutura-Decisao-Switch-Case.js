@@ -1,5 +1,5 @@
 /*
- *  Estrutura de repetição - Switch Case
+ *  Estrutura de decisão - Switch Case
  *  Repositório: Lógica de Programação e Algoritmos em JavaScript
  *  GitHub: @michelelozada
  */
