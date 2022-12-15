@@ -22,6 +22,7 @@
 [16](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/files/16-Estrutura-Repeticao-Loop-Do-While.js) | Estrutura de repetição - Loop Do... While  
 [17](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/files/17-Comandos-Continue-e-Break.js) | Comandos Continue e Break 
 [18](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/files/18-Funcoes.js) | Funções  
-[19](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/files/19-Arrow-Functions.js) | Arrow functions   
-[20](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/files/20-(Extra)Classes-em-JS.js) | (Extra) Classes em JavaScript  
+[19](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/files/19-Funcoes-matematicas.md) | Funções Matemáticas
+[20](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/files/20-Arrow-Functions.js) | Arrow functions   
+[21](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/files/21-(Extra)Classes-em-JS.js) | (Extra) Classes em JavaScript  
 </div>
