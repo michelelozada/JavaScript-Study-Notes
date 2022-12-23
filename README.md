@@ -1,6 +1,9 @@
 <div align="center">
 	<img src="./assets/js.png">
-	<h1>Lógica de Programação e Algoritmos em JavaScript</h1>
+	<h2>Lógica de Programação e Algoritmos em JavaScript</h2>
+	<h3>⬝&nbsp; Tela Inicial &nbsp;⬝</h3>
+&nbsp;
+&nbsp;	
 
 Índice | Descrição 
 :---:  | :---
@@ -25,4 +28,7 @@
 [19](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/files/19-Funcoes-matematicas.md) | Funções Matemáticas
 [20](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/files/20-Arrow-Functions.js) | Arrow functions   
 [21](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript/blob/main/files/21-(Extra)Classes-em-JS.js) | (Extra) Classes em JavaScript  
+
+&nbsp;    
+[[Voltar ao topo]](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-JavaScript#lógica-de-programação-e-algoritmos-em-javascript)
 </div>
