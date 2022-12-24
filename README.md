@@ -30,5 +30,5 @@
 [21](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/21-Classes-em-JS.js) | Classes em JavaScript  
 
 &nbsp;    
-[[Voltar ao topo]](https://github.com/michelelozada/JavaScript-Study-Notes#lógica-de-programação-e-algoritmos-em-javascript)
+[[Voltar ao topo]](https://github.com/michelelozada/JavaScript-Study-Notes#javascript---notas-de-estudo)
 </div>

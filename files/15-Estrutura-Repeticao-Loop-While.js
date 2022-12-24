@@ -1,6 +1,6 @@
 /*
  *  Estrutura de repetição - Loop While
- *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  Repositório: JavaScript - Notas de estudo
  *  GitHub: @michelelozada
  */
 

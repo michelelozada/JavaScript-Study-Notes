@@ -1,6 +1,6 @@
 /*
  *  Percorrendo um array
- *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  Repositório: JavaScript - Notas de estudo
  *  GitHub: @michelelozada
  */
 

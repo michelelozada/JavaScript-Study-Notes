@@ -1,6 +1,6 @@
 /*
  *  Estrutura de decisão - If Else If
- *  Repositório: Lógica de Programação e Algoritmos em JavaScript
+ *  Repositório: JavaScript - Notas de estudo
  *  GitHub: @michelelozada
  */
 
