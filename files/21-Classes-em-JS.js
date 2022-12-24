@@ -1,5 +1,5 @@
 /*
- *  (Extra) Classes em JavaScript
+ *  Classes em JavaScript
  *  Repositório: Lógica de Programação e Algoritmos em JavaScript
  *  GitHub: @michelelozada
  */
