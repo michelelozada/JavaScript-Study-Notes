@@ -12,32 +12,30 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		
-
-	<script>
-		let loginValido = "user123";
-		let senhaValida = "12345";
-		let tentativasPermitidas = 3;
-		let tentativa = 1;
-		
-		while(tentativa <= tentativasPermitidas) {
-			let loginDigitado = prompt("Por favor, entre com o seu login: ");
-			let senhaDigitada = prompt("Entre com a sua senha: ");
-		
-			if(loginValido == loginDigitado && senhaValida == senhaDigitada) {
-				alert("Login e senha conferem. Seja bem-vindo(a) ao sistema!");
-				tentativa = tentativasPermitidas;  
-			} 
-			else {
-				if (tentativa == 3) {
-					alert("Você alcançou o número de tentativas permitidas para login no sistema. Caso necessário, contate o administrador.");
-				} else {
-					alert("Login e senha não conferem. Por gentileza, tente digitá-los novamente. Tentativa(s) restante(s): " + (tentativasPermitidas - tentativa));
+		<script>
+			let loginValido = "user123";
+			let senhaValida = "12345";
+			let tentativasPermitidas = 3;
+			let tentativa = 1;
+			
+			while(tentativa <= tentativasPermitidas) {
+				let loginDigitado = prompt("Por favor, entre com o seu login: ");
+				let senhaDigitada = prompt("Entre com a sua senha: ");
+			
+				if(loginValido == loginDigitado && senhaValida == senhaDigitada) {
+					alert("Login e senha conferem. Seja bem-vindo(a) ao sistema!");
+					tentativa = tentativasPermitidas;  
+				} 
+				else {
+					if (tentativa == 3) {
+						alert("Você alcançou o número de tentativas permitidas para login no sistema. Caso necessário, contate o administrador.");
+					} else {
+						alert("Login e senha não conferem. Por gentileza, tente digitá-los novamente. Tentativa(s) restante(s): " + (tentativasPermitidas - tentativa));
+					}
 				}
+				tentativa += 1; 
 			}
-			tentativa += 1; 
-		}
-	</script>
+		</script>
 	</body>
 </html>
 ```

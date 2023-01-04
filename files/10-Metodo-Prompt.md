@@ -14,10 +14,10 @@
 &nbsp;     
 :arrow_forward: **Exemplo:** *Escreva um algoritmo que solicite dados do usuário para cadastramento de um produto*
 ```html
+
 <html>
-<!DOCTYPE html>
 	<head>
-	<meta charset="UTF-8">
+		<meta charset="UTF-8">
 	</head>
 	<body>
 		<h1>Ficha do produto</h1>

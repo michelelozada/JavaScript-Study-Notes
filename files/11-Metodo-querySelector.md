@@ -15,9 +15,8 @@
 ```html
 
 <html>
-<!DOCTYPE html>
 	<head>
-	<meta charset="UTF-8">
+		<meta charset="UTF-8">
 	</head>
 	<body>
 		<label>Digite seu nome:</label>
