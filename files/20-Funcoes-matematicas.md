@@ -1,5 +1,5 @@
 > **Funções Matemáticas**  
-> Repositório: JavaScript - Notas de estudo
+> Repositório: JavaScript - Notas de estudo  
 > GitHub: @michelelozada
 &nbsp;
      
@@ -10,6 +10,7 @@
 
 **Arredondando um número: método `round()`**  
 ```html
+
 <!DOCTYPE html>
 <meta charset=“UTF-8”>
 	<script>
@@ -25,6 +26,7 @@
 &nbsp;    
 **Retornando um número pseudo-aleatório de 0 a 1: método `random()`**  
 ```html
+
 <!DOCTYPE html>
 <meta charset=“UTF-8”>
 	<script>
@@ -37,6 +39,7 @@
 &nbsp;    
 **Retornando o valor absoluto de um número: método `abs()`**  
 ```html
+
 <!DOCTYPE html>
 <meta charset=“UTF-8”>
 	<script>
@@ -50,6 +53,7 @@
 &nbsp;    
 **Retornando o valor de um número arredondado para cima: método `ceil()`**  
 ```html
+
 <!DOCTYPE html>
 <meta charset=“UTF-8”>
 	<script>
@@ -67,6 +71,7 @@
 &nbsp;    
 **Retornando o valor de um número arredondado para baixo: método `floor()`**  
 ```html
+
 <!DOCTYPE html>
 <meta charset=“UTF-8”>
 	<script>
@@ -84,6 +89,7 @@
 &nbsp;    
 **Retornando o maior de dois ou mais números: método `max()`**  
 ```html
+
 <!DOCTYPE html>
 <meta charset=“UTF-8”>
 	<script>
@@ -96,6 +102,7 @@
 &nbsp;    
 **Retornando o menor de dois ou mais números: método `min()`**  
 ```html
+
 <!DOCTYPE html>
 <meta charset=“UTF-8”>
 	<script>
@@ -108,6 +115,7 @@
 &nbsp;    
 **Realizando a operação exponencial: método `pow()`**  
 ```html
+
 <!DOCTYPE html>
 <meta charset=“UTF-8”>
 	<script>
@@ -120,6 +128,7 @@
 &nbsp;    
 **Retornando a raiz quadrada de um número: método `sqrt()`**  
 ```html
+
 <!DOCTYPE html>
 <meta charset=“UTF-8”>
 	<script>
@@ -132,6 +141,7 @@
 &nbsp;    
 **Informando o valor da constante pi(π): método `Math.PI`**
 ```html
+
 <!DOCTYPE html> 
 <meta charset=“UTF-8”>
 	<script>
@@ -149,3 +159,9 @@
 	</script>
 </html>
 ```	
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/JavaScript-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>
