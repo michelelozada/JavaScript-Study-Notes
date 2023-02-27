@@ -20,7 +20,7 @@ Link   | Tópico
 [11](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/11-Metodo-Prompt.md) | Método prompt()  
 [12](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/12-Metodo-querySelector.md) | Método querySelector()
 [13](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/13-Estrutura-Decisao-If-Else.js) | Estrutura de decisão - If Else 
-[14(https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/14-Estrutura-Decisao-If-Else-If.js) | Estrutura de decisão - If Else If  
+[14](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/14-Estrutura-Decisao-If-Else-If.js) | Estrutura de decisão - If Else If  
 [15](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/15-Estrutura-Decisao-Switch-Case.js) | Estrutura de decisão - Switch Case 
 [16](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/16-Estrutura-Repeticao-Loop-For.js) | Estrutura de repetição - Loop For 
 [17](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/17-Estrutura-Repeticao-Loop-While.md) | Estrutura de repetição - Loop While  
