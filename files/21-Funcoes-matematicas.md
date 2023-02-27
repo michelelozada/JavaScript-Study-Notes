@@ -5,7 +5,7 @@
      
 &nbsp;   
 **Objeto `Math`**    
- - Na linguagem JavaScript, realiza operações matemáticas, sendo que alguns de seus métodos estão relacionados abaixo.  
+- Na linguagem JavaScript, realiza operações matemáticas, sendo que alguns de seus métodos estão relacionados abaixo.  
 &nbsp;
 
 **Arredondando um número: método `round()`**  

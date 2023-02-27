@@ -1,32 +1,33 @@
-/*
- *  Variáveis e atribuição de valores
- *  Repositório: JavaScript - Notas de estudo
- *  GitHub: @michelelozada
- */
+> **Variáveis e atribuição de valores**  
+> Repositório: JavaScript - Notas de estudo     
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;   
 
+Em JavaScript, a declaração de uma variável (ou constante) está relacionada ao seu escopo, podendo ser:
 
-// 1.1 - let 
+&nbsp;   
+
+**1 - Declaração do tipo let**
+- é uma variável de escopo de bloco, ou seja, pode ser acessada apenas neste escopo
+```js
+
 let operacao = 'soma';
 let numero1 = 10;
 let numero2 = 20;
 console.log (`A operação de ${operacao} de ${numero1} com ${numero2} resulta em ${numero1 + numero2}.`);
-// Output: A operação de soma de 10 com 20 resulta em 30.
 
+// Retorna: A operação de soma de 10 com 20 resulta em 30.
+```
 
+&nbsp;   
 
-// 1.2 - Atribuindo um novo valor à variável
-numero1 = 15;
-console.log (`Repare que agora a variável número1 acabou de assumir o valor ${numero1}!`);
-console.log (`Update: O resultado da operação de ${operacao} de ${numero1} com ${numero2} resulta em ${numero1 + numero2}.`);
-/* Output
-Repare que agora a variável número1 acabou de assumir o valor 15!
-Update: O resultado da operação de soma de 15 com 20 resulta em 35.
-*/
+**2 - Declaração do tipo const**
+- é uma variável de escopo de bloco, ou seja, pode ser acessada apenas neste escopo  
+- ao ser declarada, seu valor atribuído não pode ser atualizado  
+```js
 
-
-		
-
-// 2.1 - Inicialização de variável com const
 const registro_infantil = {
 	nome: 'Lucas',
 	data: '30/03/2021',
@@ -41,33 +42,39 @@ console.log('Peso:', registro_infantil.peso,'kg');
 console.log('Altura:', registro_infantil.altura,'cm');
 console.log('Aferido em:', registro_infantil.data);
 
-/* Output
+/* Retorna:
 Nome: Lucas
 Idade: 3 anos
 Peso: 12.25 kg
 Altura: 90.6 cm
 Aferido em: 30/03/2021
 */
+```
+Alterando o valor das propriedades do objeto registro_infantil:
 
+```js
 
-// 2.2 - Alterando o valor das propriedades do objeto registro_infantil
 registro_infantil.idade = 4
 registro_infantil.peso = 13.65
 registro_infantil.altura = 97.5 
 registro_infantil.data = '30/03/2022'
 
-/* Output após nova impressão
+/* Retorna:
 Nome: Lucas
 Idade: 4 anos
 Peso: 13.65 kg
 Altura: 97.5 cm
 Aferido em: 30/03/2022
 */
+```
 
+&nbsp;   
 
+**3 - Declaração do tipo var**
+- variável de escopo global
+- não se utiliza mais, a não ser em sistemas legados
+```js
 
-
-// 3 - var
 var nome = "Enzo"
 var sobrenome = "Lemos"
 var idade = 17
@@ -85,7 +92,7 @@ console.log(`Registro estudantil:
 	Aptidões demonstradas em: ${aptidoes}
 `);
 
-/* Output
+/* Retorna:
 Registro estudantil:
 	Aluno: Enzo Lemos
 	Idade: 17 anos
@@ -94,3 +101,10 @@ Registro estudantil:
 	Notas das avaliações: 10,8.5,7.2,9
 	Aptidões demonstradas em: Matemática,Química,Física
 */
+```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/JavaScript-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>
