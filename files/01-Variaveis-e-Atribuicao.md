@@ -5,12 +5,12 @@
      
 &nbsp;   
 
-Em JavaScript, a declaração de uma variável (ou constante) está relacionada ao seu escopo, podendo ser:
+Em JavaScript, a declaração de uma variável está relacionada ao seu **escopo**, podendo ser:
 
 &nbsp;   
 
-**1 - Declaração do tipo let**
-- é uma variável de escopo de bloco, ou seja, pode ser acessada apenas neste escopo
+**1 - Declaração `let`**
+- Aqui a variável é de escopo de bloco, ou seja, pode ser acessada apenas neste escopo.  
 ```js
 
 let operacao = 'soma';
@@ -23,9 +23,9 @@ console.log (`A operação de ${operacao} de ${numero1} com ${numero2} resulta e
 
 &nbsp;   
 
-**2 - Declaração do tipo const**
-- é uma variável de escopo de bloco, ou seja, pode ser acessada apenas neste escopo  
-- ao ser declarada, seu valor atribuído não pode ser atualizado  
+**2 - Declaração `const`**
+- Aqui a variável é de escopo de bloco, ou seja, pode ser acessada apenas neste escopo, sendo que ao ser declarada, seu valor atribuído não pode ser atualizado.      
+- No caso de arrays, esta declaração determina que não é possível que o tipo da variável se altere (ou seja, uma vez declarado assim, sempre será um array).      
 ```js
 
 const registro_infantil = {
@@ -50,7 +50,7 @@ Altura: 90.6 cm
 Aferido em: 30/03/2021
 */
 ```
-Alterando o valor das propriedades do objeto registro_infantil:
+*Alterando o valor das propriedades do objeto registro_infantil:*  
 
 ```js
 
@@ -70,9 +70,8 @@ Aferido em: 30/03/2022
 
 &nbsp;   
 
-**3 - Declaração do tipo var**
-- variável de escopo global
-- não se utiliza mais, a não ser em sistemas legados
+**3 - Declaração `var`**
+- Aqui a variável é de escopo global. Justamente por isso e devido também à possibilidade de uma eventual (e acidental!) sobreposição de valores, essa declaração é normalmente encontrada hoje apenas em sistemas legados.  
 ```js
 
 var nome = "Enzo"
@@ -81,7 +80,7 @@ var idade = 17
 var aprovacao = true
 var media = 8.7
 var notas = [10.0,8.5,7.2,9.0]
-var aptidoes =['Matemática','Química','Física']
+var aptidoes = ['Matemática','Química','Física']
 
 console.log(`Registro estudantil:
 	Aluno: ${nome} ${sobrenome}
