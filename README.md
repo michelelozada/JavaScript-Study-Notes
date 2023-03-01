@@ -14,7 +14,7 @@ Link   | Tópico
 [05](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/05-Operadores-Logicos.js) | Operadores lógicos    
 [06](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/06-Operadores-de-String.js) | Operadores de string    
 [07](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/07-Manipulacao-de-Strings.js) | Manipulação de strings   
-[08](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/08-Manipulacao-de-Arrays.js) | Manipulação de arrays   
+[08](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/08-Manipulacao-de-Arrays.md) | Manipulação de arrays   
 [09](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/09-Percorrendo-um-Array.js) | Percorrendo um array   
 [10](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/10-Objetos.js) | Objetos em JavaScript  
 [11](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/11-Metodo-Prompt.md) | Método prompt()  
