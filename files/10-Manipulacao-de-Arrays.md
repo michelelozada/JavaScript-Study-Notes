@@ -9,17 +9,17 @@
 Método | Função
 :---   | :---
 filter()   |
-includes() | Verifica se um item informado está dentro do array.
-indexOf()  | Retorna o índice de um valor especifico em um array
+includes() | Verifica se um item informado está dentro do array
+indexOf()  | Retorna o índice da primeira ocorrência de um valor especifico em um array. Se não houver este valor, retorna -1.
 join()     |
 length()   |
 map()      |
-pop()      |
-push()     |
+pop()      | Retira o primeiro elemento do array. Altera o array original. 
+push()     | Adiciona o elemento passado na última posição do array. Altera o array original.
 reduce()   |
-reverse()  |
-shift()    |
-sort()     |
+reverse()  | Inverte a ordem do array (último elemento vira primeiro e assim sucessivamente)
+shift()    | Retira o primeiro elemento do array. Altera array original e troca índice dos elementos remanescentes.
+sort()     | Organiza o array em classificação crescente.
 splice()   | Altera o conteúdo de um array, excluindo um valor dentro de um array, adicionando (ou não) outro(s) valor(es) ali.
 unshift()  |
 

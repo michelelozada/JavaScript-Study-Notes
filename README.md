@@ -11,14 +11,14 @@ Link   | Tópico
 [02](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/02-Tipos-de-Dados.md) | Tipos de dados    
 [03](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/03-Conversao-de-Tipos.md) | Conversão de tipos  
 [04](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/04-Operadores-Aritmeticos-e-de-Atribuicao.md) | Operadores aritméticos e de atribuição   
-[05](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/05-Operadores-Compraracao.md) | Operadores de comparação
+[05](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/05-Operadores-Comparacao.md) | Operadores de comparação
 [06](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/06-Operadores-Logicos.md) | Operadores lógicos    
 [07](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/07-Operadores-de-String.md) | Operadores de string    
 [08](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/08-Manipulacao-de-Strings.md) | Manipulação de strings   
 [09](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/09-Arrays.md) | Arrays   
 [10](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/10-Manipulacao-de-Arrays.md) | Manipulação de arrays   
 [11](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/11-Percorrendo-um-Array.md) | Percorrendo um array   
-[12](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/12-Objetos.js) | Objetos em JavaScript  
+[12](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/12-Objetos.md) | Objetos em JavaScript  
 [13](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/13-Metodo-Prompt.md) | Método prompt()  
 [14](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/14-Metodo-querySelector.md) | Método querySelector()
 [15](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/15-Estrutura-Decisao-If-Else.md) | Estrutura de decisão - If Else 
@@ -40,7 +40,8 @@ Link   | Tópico
   &nbsp;
   &nbsp;   
   [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)   
-  [JavaScript Descomplicado (livro de Cláudio Luís Vieira Oliveira e Humberto Augusto Piovesana Zanetti)](https://books.google.com.br/books?id=X8XhDwAAQBAJ)
+  [JavaScript Descomplicado (por Cláudio Luís Vieira Oliveira e Humberto Augusto Piovesana Zanetti)](https://books.google.com.br/books?id=X8XhDwAAQBAJ)  
+  [JavaScript Tutorial](https://www.javascripttutorial.net/)
   </details>
 
 &nbsp;    

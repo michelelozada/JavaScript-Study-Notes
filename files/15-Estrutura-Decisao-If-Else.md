@@ -5,35 +5,33 @@
      
 &nbsp;   
  
-**Escreva um algoritmo que verifique a validade de um ID e da senha fornecidos por um usuário. Caso a entrada do ID e/ou da senha não corespondam ao esperado, o programa deve reportar isso.**  
+**Utilizando a estrutura `if else`:**  
 ```js
 
-let login = prompt('Por favor, digite seu ID de usuário:');
+let media = 65;
+let statusAprovacao = null;
 
-if (login === 'marialemos84') {
-    console.log('Login confere...');
-    let password = prompt('Por favor, digite sua senha:');
-    if (password === 'ML123#') {
-        console.log('Bem-vinda ao sistema, Maria!');
-    } else {
-        console.log('Sua senha não confere. Favor entrar em contato com administrador.');
-    }
+if (media >= 70) {
+    statusAprovacao = "Aluno(a) foi aprovado(a) no curso.";
 } else {
-    console.log('Seu login não confere. Favor entrar em contato com administrador.');
+    statusAprovacao = "Aluno(a) terá de realizar o exame final.";
 }
+console.log("Status: " + statusAprovacao);
 
+// Retorna: Status: Aluno(a) terá de realizar o exame final.
+```
 
-/* Outputs possíveis:
-Por favor, digite seu ID de usuário: marialemos
-> Retorna: Seu login não confere. Favor entrar em contato com administrador.
+&nbsp;   
 
-Por favor, digite seu ID de usuário: marialemos84
-Por favor, digite sua senha: ml123#
-> Retorna: Sua senha não confere. Favor entrar em contato com administrador.
+**Mesmo exemplo acima, utilizando agora o operador ternário:**  
+```js
+let media = 85;
+let statusAprovacao = null;
 
-Por favor, digite seu ID de usuário: marialemos84
-Por favor, digite sua senha: ML123#
-> Retorna: Bem-vinda ao sistema, Maria! */
+statusAprovacao = (media >= 70) ? "Aluno(a) foi aprovado(a) no curso." : "Aluno(a) terá de realizar o exame final.";
+console.log("Status: " + statusAprovacao);
+
+// Retorna: Status: Aluno(a) foi aprovado(a) no curso.
 ```
 
 &nbsp;

@@ -21,7 +21,7 @@ while (contador < produtosDisponiveis.length) {
 }
 console.log(produtosDisponiveis);
 
-// Retorna: [ 'Bolsa', 'Carteira', 'Necessaire' ]
+// Retorna: [ 'Bolsa', 'Carteira', 'Nécessaire' ]
 ```
 
 &nbsp;

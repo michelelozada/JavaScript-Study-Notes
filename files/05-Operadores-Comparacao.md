@@ -1,9 +1,13 @@
-> **Operadores de comparação**  
+> **Operadores de Comparação**  
 > Repositório: JavaScript - Notas de estudo   
 > GitHub: @michelelozada
 &nbsp;
      
 &nbsp;    
+**Operadores de Comparação (Comparisson Operators)**  
+- Retornam valores booleanos, após a comparação de operandos.
+
+&nbsp;     
 
 **1 - Igual a (`==`)**
 ```js
@@ -88,33 +92,51 @@ console.log('dia' == 'dia'); // Retorna: true
 
 **9 - Diferença entre *igual a* (`==`) e *idêntico a* (`===`)**  
 - **Igual a (`==`)**  - verifica se as variáveis apresentam o mesmo valor.    
-- **Idêntico a (`=== `)** - além de verificar se têm o mesmo valor, compara se as variáveis são do mesmo tipo.    
-&nbsp; 
+- **Idêntico a (`=== `)** - além de verificar se têm o mesmo valor, compara se as variáveis são do mesmo tipo.      
+- *Aqui há a coversão das strings em números para a comparação.*  
+&nbsp;   
+```js
+
+console.log(false == "false");  // Retorna: false (valor booleano false foi convertido aqui para o número 0)
+console.log(5 == "5");  // Retorna: true
+console.log(false == false);  // Retorna: true
+console.log(5 == 5);  // Retorna: true
+
+console.log(false === "false");  // Retorna: false
+console.log(5 === "5");  // Retorna: false
+console.log(false === false);  // Retorna: true 
+console.log(5 === 5);  // Retorna: true
+```
+&nbsp;    
+
+*10 - Diferença entre *diferente de* (`!=`) e *não idêntico a* (`!==`)**  
+- **Diferente de (`!=`)**  - verifica se as variáveis tem valores diferentes.     
+- **Não idêntico a (`!== `)** - além de verificar se têm valores diferentes, compara se as variáveis também diferem em seus tipos.  
+- *Aqui não há a coversão das strings em números para a comparação.*  
+&nbsp;   
 
 ```js
 
-const a = 5; 
-const b = "5"; 
+console.log(false != "false");  // Retorna: true
+console.log(5 != "5");  // Retorna: false
+console.log(false != false);  // Retorna: false
+console.log(5 != 5);  // Retorna: false 
 
-if (a == b) {
-    console.log("As duas variáveis têm valores iguais.");
-    if (a === b) {
-        console.log("Também têm tipos iguais; portanto, são variáveis idênticas.");
-    } else {
-        console.log("Mas têm tipos diferentes; portanto, não são variáveis idênticas.");
-    }
-} else {
-    console.log("As duas variáveis têm valores diferentes.");
-}       
 
-/* Retorna: 
- As duas variáveis têm valores iguais.
- Mas têm tipos diferentes; portanto, não são variáveis idênticas.
-*/ 
+console.log(false !== "false");  // Retorna: true
+console.log(5 !== "5");  // Retorna: true
+console.log(false !== false);  // Retorna:false
+console.log(5 !== 5);  // Retorna: false
 ```
+
+&nbsp;   
+
+<div align="center">
+:bulb: <b>Referência pesquisada:</b>
+<br>
+<a href="https://ricardo-reis.medium.com/operadores-de-compara%C3%A7%C3%A3o-comparison-operators-d2bc3ed734a3">Operadores de Comparação (Comparison Operators) JavaScript</a>, artigo de Ricardo Reis
 
 &nbsp;
 
-<div align="center">
 <a href="https://github.com/michelelozada/JavaScript-Study-Notes">[Voltar à tela inicial do repositório]</a>
 </div>
