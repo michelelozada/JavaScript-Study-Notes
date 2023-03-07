@@ -114,8 +114,7 @@ console.log(osSimpsons.includes('Mr. Burns')); // Retorna: false
 ```
 
 &nbsp;   
-**11 - Criando um novo array de forma que, ao invés de aparecer os nomes, apareça quem é quem dentro da família Simpson.**  
-*Observação importante: O nome da Lisa, porém, é o único que deve continuar aparecendo na lista!*
+**11 - Criando um novo array de forma que, ao invés de aparecer os nomes, apareça quem é quem dentro da família Simpson. O nome da Lisa, porém, é o único que deve continuar aparecendo na lista!**  
 ```js
 
 let familia = osSimpsons.map(function (membroFamilia) {
@@ -141,7 +140,9 @@ console.log(familia);
 ```
 
 &nbsp;  
-**12 - Removendo os itens do array atual (os apelidos) e substituindo-os por novos itens (no caso, os nomes completos), através do método `splice()`** 
+**12 - Removendo os itens do array atual (os apelidos) e substituindo-os por novos itens (no caso, os nomes completos), através do método `splice()`**   
+*(Primeiro parâmetro: índice onde se iniciará a alteração; segundo parâmetro: nº de itens da lista que devem ser removidos, a partir do índice definido anteriormente;
+(opcional) Demais parâmetros: inclusão novos itens (strings) a ser adicionados à lista, onde outros itens foram removidos).*    
 ```js
 
 // Sintaxe: 

@@ -23,15 +23,15 @@ Link   | Tópico
 [14](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/14-Metodo-querySelector.md) | Método querySelector()
 [15](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/15-Estrutura-Decisao-If-Else.md) | Estrutura de decisão - If Else 
 [16](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/16-Estrutura-Decisao-If-Else-If.md) | Estrutura de decisão - If Else If  
-[17](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/17-Estrutura-Decisao-Switch-Case.js) | Estrutura de decisão - Switch Case 
-[18](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/18-Estrutura-Repeticao-Loop-For.js) | Estrutura de repetição - Loop For 
+[17](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/17-Estrutura-Decisao-Switch-Case.md) | Estrutura de decisão - Switch Case 
+[18](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/18-Estrutura-Repeticao-Loop-For.md) | Estrutura de repetição - Loop For 
 [19](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/19-Estrutura-Repeticao-Loop-While.md) | Estrutura de repetição - Loop While  
-[20](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/20-Estrutura-Repeticao-Loop-Do-While.js) | Estrutura de repetição - Loop Do... While  
-[21](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/21-Comandos-Continue-e-Break.js) | Comandos Continue e Break 
-[22](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/22-Funcoes.js) | Funções  
+[20](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/20-Estrutura-Repeticao-Loop-Do-While.md) | Estrutura de repetição - Loop Do... While  
+[21](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/21-Comandos-Continue-e-Break.md) | Comandos Continue e Break 
+[22](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/22-Funcoes.md) | Funções  
 [23](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/23-Funcoes-matematicas.md) | Funções Matemáticas
-[24](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/24-Arrow-Functions.js) | Arrow functions   
-[25](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/25-Classes-em-JS.js) | Classes em JavaScript  
+[24](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/24-Arrow-Functions.md) | Arrow functions   
+[25](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/25-Classes-em-JS.md) | Classes em JavaScript  
 
 &nbsp;   
  <details>
