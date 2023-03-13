@@ -30,8 +30,8 @@ Link   | Tópico
 [21](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/21-Funcoes-matematicas.md) | Funções Matemáticas
 [22](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/22-Arrow-Functions.md) | Arrow Functions   
 [23](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/23-Document-Object-Model.md) | DOM (Document Object Model)   
-[24](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/24-Metodo-Prompt.md) | Método prompt()  
-[25](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/25-Metodo-querySelector.md) | Método querySelector()
+[24](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/24-Metodo-querySelector.md) | Método querySelector()
+[25](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/25-Metodo-Prompt.md) | Método prompt()  
 [26](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/26-Classes-em-JS.md) | Classes em JavaScript  
 
 &nbsp;   
