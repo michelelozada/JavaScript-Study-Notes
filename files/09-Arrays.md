@@ -6,6 +6,14 @@
 &nbsp;    
 **Array**  
 - É uma coleção de elementos que possuem/podem ser acessados através de um índice.  
+```js
+
+let arrayDeNumeros = [10, 20, 30, 40, 50];
+
+let arrayDeStrings = ["Um", "array", "só", "de", "strings"];
+
+let arrayMisto = ["uno", 2, "due", 3, 4, "quattro"];
+```
 
 &nbsp;  
 
@@ -36,7 +44,7 @@ const nomes = [`Huguinho`, `Zezinho`, `Luisinho`];
 
 &nbsp; 
 
-**Para acessar elementos específicos do array acima:**  
+**Acessando elementos específicos do array acima:**  
 ```js
 
 console.log(nomes[0]); // Retorna: Huguinho

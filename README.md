@@ -29,10 +29,11 @@ Link   | Tópico
 [20](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/20-Funcoes.md) | Funções  
 [21](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/21-Funcoes-matematicas.md) | Funções Matemáticas
 [22](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/22-Arrow-Functions.md) | Arrow Functions   
-[23](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/23-Document-Object-Model.md) | DOM (Document Object Model)   
-[24](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/24-Metodo-querySelector.md) | Método querySelector()
-[25](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/25-Metodo-Prompt.md) | Método prompt()  
-[26](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/26-Classes-em-JS.md) | Classes em JavaScript  
+[23](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/23-Metodo-Prompt.md) | Método prompt() 
+[24](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/24-Trabalhando-com-Datas.md) | Trabalhando com Datas em JavaScript
+[25](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/25-Document-Object-Model.md) | DOM (Document Object Model)   
+[26](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/26-Metodo-querySelector.md) | Método querySelector()
+[27](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/27-Classes-em-JS.md) | Classes em JavaScript  
 
 &nbsp;   
  <details>
@@ -42,7 +43,8 @@ Link   | Tópico
   &nbsp;   
   [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)   
   [JavaScript Descomplicado (por Cláudio Luís Vieira Oliveira e Humberto Augusto Piovesana Zanetti)](https://books.google.com.br/books?id=X8XhDwAAQBAJ)  
-  [JavaScript Tutorial](https://www.javascripttutorial.net/)
+  [JavaScript Tutorial](https://www.javascripttutorial.net/)  
+	[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
   </details>
 
 &nbsp;    

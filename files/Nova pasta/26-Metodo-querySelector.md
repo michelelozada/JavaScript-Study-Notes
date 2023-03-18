@@ -6,8 +6,8 @@
 &nbsp;   
 **Método `querySelector()`**    
 - Sua finalidade é acessar elementos HTML em um documento (**`document`**) para que estes sejam manipulados através do JavaScript.    
-- O parâmetro recebido por este método pode ser o nome do seletor, da sua classe ou o seu id.    
-- Será retornado o primeiro item encontrado.      
+- O parâmetro recebido por este método pode ser o nome da tag, sua classe, seu id ou seu data-attribute.  
+- Será retornado apenas o primeiro item encontrado.      
 - Em conjunto com a  propriedade **`textContent`** é possível acessar o conteúdo de texto de uma tag.  
 
 &nbsp;
@@ -55,6 +55,7 @@ document.querySelector('#pt-greeting-2').textContent = 'How are you doing?';
 let entradaNome = document.querySelector("input");
 
 function exibirAlerta() {
+	// Para selecionar o valor de um input - e não o próprio input - deve-se usar a propriedade value
 	alert("Olá, " + entradaNome.value + "!");
 }
 

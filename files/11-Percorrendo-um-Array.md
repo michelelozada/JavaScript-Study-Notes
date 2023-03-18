@@ -146,6 +146,16 @@ cestaDeFrutas.forEach(function(item) {
 
 &nbsp;
 
+Mesmo exemplo acima, usando uma arrow function:  
+```js
+
+cestaDeFrutas.forEach(item => {
+    console.log('- ' + item);
+});
+```
+
+&nbsp;
+
 <div align="center">
 <a href="https://github.com/michelelozada/JavaScript-Study-Notes">[Voltar à tela inicial do repositório]</a>
 </div>

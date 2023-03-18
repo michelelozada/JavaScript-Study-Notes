@@ -28,7 +28,31 @@ console.log(profession)
 
 &nbsp; 
 
-**Alternativa! - Uso das template strings**  
+**Alternativa! - Template Literals/Template Strings**  
+- Funcionalidade disponível a partir do ES6
+- Para concatenação/interpolação de strings com código JS, sem a necessidade do uso do sinal `+`
+
+&nbsp; 
+
+Sintaxe básica  
+```js
+
+`Qualquer string aqui e ${dentro das chaves apenas código js}. Se for o caso, seguida por qualquer string aqui.`
+```
+
+&nbsp; 
+
+```js
+
+const resposta = 'Template literals';
+
+console log(`Qual funcionalidade devo usar caso deseje concatenar strings e código JS de um modo mais simples? ${resposta}`);
+
+// Retorna: Qual funcionalidade devo usar caso deseje concatenar strings e código JS de um modo mais simples? Template literals
+```
+
+&nbsp; 
+
 ```js
 
 let nome = "Enzo";
