@@ -46,7 +46,13 @@ Link   | Tópico
 ### III. JavaScript OO
 Link   | Tópico 
 :---:  | :---
-[01](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/01-Classes-em-JS.md) | Classes em JavaScript  
+[01](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/01-Classes-e-Objetos.md) | Classes e Objetos
+[02](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/02-Atributos.md) | Atributos
+[03](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/03-Metodos.md) | Métodos  
+[04](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/04-Metodo-Constructor.md) | Método Constructor 
+[05](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/05-Metodos-Get-e-Set.md) | Métodos Get e Set
+[06](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/06-Tipos-de-Valor-e-Referencia.md) | Tipos de Valor e de Referência
+[07](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/07-Trabalhando-com-Modulos.md) | Trabalhando com Módulos
 
 &nbsp;   
  <details>
