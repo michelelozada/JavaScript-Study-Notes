@@ -12,13 +12,16 @@
 é criada.  
 &nbsp;  
 
-- Através de seus parâmetros, são passados os valores dos atributos que o objeto pertencente a 
+- Neste momento se 'diz' ao computador para que reserve um espaço em memória para esta instância a ser criada.  
+&nbsp;  
+
+- Através dos parâmetros deste método, são passados os valores dos atributos que o objeto pertencente a 
 esta classe deve conter.      
 &nbsp;  
 
 - Toda classe possui um método constructor. Portanto, mesmo que ele não seja declarado 
 explicitamente, há um método construtor vazio ali. Nestes casos, ao ser criado o objeto da classe, 
-seus atributos receberão o valor `undefined`, pois não foram atribuídos no construtor.  
+note que seus atributos receberão o valor `undefined`, pois não foram atribuídos no construtor.  
 &nbsp;  
 
 - Quando trabalhamos com o método construtor, não é necessário que os atributos do objeto sejam
@@ -28,14 +31,14 @@ declarados fora do método (isso não se aplica, porém, aos atributos estático
 
 ```js
 
-class Conta {
+class ContaCorrente {
   constructor(numero, agencia) {
   this.numero = numero;
   this.agencia = agencia;
   }
 }
 
-const conta1 = new Conta(1001, 374);
+const conta1 = new ContaCorrente(1001, 374);
 ```
 
 &nbsp;

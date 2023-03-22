@@ -35,13 +35,14 @@ set saldo(valor) {
 
 &nbsp; 
 
-Método set com validação 
+Método set contendo validações   
 ```js   
 
 // para que não seja aceito valor menor ou igual a zero
 
-set valor(novoValor) {
-  if(novoValor > 0) {
+class ContaCorrente {
+	set valor(novoValor) {
+	  if(novoValor > 0) {
     this.#valor = novoValor;
   }
 }
@@ -50,8 +51,9 @@ set valor(novoValor) {
 
 // para que só aceite valor proveniente da classe Cliente (e não um número, nome, etc.)
 
-set cliente(novoValor) {
-  if (novoValor instanceof Cliente) {
+class ContaCorrente {
+  set cliente(novoValor) {
+    if (novoValor instanceof Cliente) {
     this.#cliente = novoValor;
   }
 }
@@ -62,15 +64,16 @@ set cliente(novoValor) {
 **Método `get()`**  
 &nbsp;  
 
-Ao ser executado, será retornada a informação guardada no objeto.  
+Ao ser executado, será retornada a informação guardada em uma dada propriedade deste objeto.  
 
 &nbsp;  
 
 ```js 
-
-get saldo() {
-  return this.#saldo;
-}
+class ContaCorrente {
+  get saldo() {
+    return this.#saldo;
+  }
+}	
 ```
 &nbsp;
 

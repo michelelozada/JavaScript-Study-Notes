@@ -8,7 +8,7 @@
 ```js
 
 class Cliente {
-	// Definindo os campos, propriedades ou atributos para esta classe
+  // Definindo os atributos desta classe
   nome;
   cpf;
 }
@@ -24,7 +24,7 @@ new Cliente();
 
 &nbsp;  
 
-**Acima foi criado um objeto; porém ele não foi atribuído à uma variável de acesso**
+**Acima foi criado um objeto; porém ele não foi atribuído a uma variável de acesso, conforme exemplo abaixo**
 ```js
 
 const cliente1 = new Cliente();
@@ -32,7 +32,7 @@ const cliente1 = new Cliente();
 
 &nbsp;  
 
-**Atribuindo valores aos atributos do objeto criado**  
+**Atribuindo valores/populando os campos do objeto criado**  
 ```js
 
 cliente1.nome = "Enzo";
@@ -45,7 +45,7 @@ cliente1.cpf = 11122233309;
 
 console.log(cliente1);
 
-//Retorna: Cliente { nome: 'Enzo', cpf: 11122233309 }
+// Retorna: Cliente { nome: 'Enzo', cpf: 11122233309 }
 ```
 
 &nbsp;

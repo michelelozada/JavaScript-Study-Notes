@@ -19,14 +19,16 @@
 
 ```js
 
-sacar(valor) {
-  if (this.#saldo >= valor) {
-    this.#saldo -= valor;
-    console.log("Saque realizado com sucesso!");
-  } else {
-    console.log("Não foi possível realizar esta operação (saldo insuficiente)");
+class ContaCorrente {
+  sacar(valor) {
+    if (this.#saldo >= valor) {
+      this.#saldo -= valor;
+      console.log("Saque realizado com sucesso!");
+    } else {
+      console.log("Não foi possível realizar esta operação (motivo: saldo insuficiente)");
+    }
   }
-}
+}	
 
 // Chamada do método
 cliente1.sacar(500);
@@ -49,26 +51,30 @@ cliente1.sacar(500);
 
 ```js
 
-sacar(valor) {
-  if (this.#saldo >= valor) {
-    this.#saldo -= valor;
-   return valor;
-  } 
-}
+class ContaCorrente {
+  sacar(valor) {
+    if (this.#saldo >= valor) {
+      this.#saldo -= valor;
+    } 
+  }
+}	
 
-const valorSacado = contaCorrente1.sacar(500);
+cliente1.sacar(500);
 ```
 ```js
 
 // Criando o método depositar, considerando primeiro a ação que não desejo (early return) 
-
-depositar(valor) {
-  if (valor <= 0) {
-    console.log("Não foi possível realizar esta operação (valor de depósito insuficiente)");
-    return;
+class ContaCorrente {
+  depositar(valor) {
+    if (valor <= 0) {
+      console.log("Não foi possível realizar esta operação (motivo: valor de depósito insuficiente)");
+      return;
+    }
+    this.#saldo += valor;
   }
-  this.#saldo += valor;
-}
+}	
+
+cliente1.depositar(1000);
 ```
 
 &nbsp;   
@@ -83,7 +89,7 @@ ao objeto da classe atrelado ao método que foi chamado.
 
 ```js
 
-class Conta {
+class ContaCorrente {
   constructor(numero, agencia) {
   this.numero = numero;
   this.agencia = agencia;
@@ -93,7 +99,7 @@ class Conta {
   }
 }
 
-const conta1 = new Conta(1001, 374);
+const conta1 = new ContaCorrente(1001, 374);
 conta1.identificaConta();
 ```
 
