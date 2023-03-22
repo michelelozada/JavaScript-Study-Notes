@@ -34,8 +34,6 @@ export class Cliente {
 **Importando esta classe**    
 ```js
 
-// Utilizar sempre o caminho absoluto
-
 import { Cliente } from "./Cliente.js";
 ```
 
