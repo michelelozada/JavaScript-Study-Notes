@@ -64,7 +64,7 @@ class ContaCorrente {
 **Método `get()`**  
 &nbsp;  
 
-Ao ser executado, será retornada a informação guardada em uma dada propriedade deste objeto.  
+Ao ser executado, retorna o valor de uma dada propriedade deste objeto.  
 
 &nbsp;  
 

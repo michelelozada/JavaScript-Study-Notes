@@ -52,8 +52,10 @@ Link   | Tópico
 [04](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/04-Metodo-Constructor.md) | Método Constructor 
 [05](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/05-Metodos-Get-e-Set.md) | Métodos Get e Set
 [06](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/06-Operador-instanceof.md) | Operador instanceof
-[07](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/07-Tipos-de-Valor-e-Referencia.md) | Tipos de Valor e de Referência
-[08](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/08-Trabalhando-com-Modulos.md) | Trabalhando com Módulos
+[07](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/07-Trabalhando-com-Heranca.md) | Trabalhando com Heranca
+[08](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/08-Classes-e-Metodos-Abstratos.md) | Classes e Métodos Abstratos
+[09](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/09-Tipos-de-Valor-e-Referencia.md) | Tipos de Valor e de Referência
+[10](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/10-Trabalhando-com-Modulos.md) | Trabalhando com Módulos
 
 &nbsp;   
  <details>
