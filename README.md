@@ -40,7 +40,9 @@ Link   | Tópico
 Link   | Tópico 
 :---:  | :---
 [01](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-DOM/01-Document-Object-Model.md) | DOM (Document Object Model)   
-[02](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-DOM/02-Metodo-querySelector.md) | Método querySelector()
+[02](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-DOM/02-Metodos-Percorrer-Lista-Nos.md) | Métodos para Percorrer uma Lista de Nós
+[03](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-DOM/03-Metodos-Manipular-Nos.md) | Métodos para Manipular Nós
+[04](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-DOM/04-Trabalhando-com-Propriedades.md) | Trabalhando com Propriedades
 
 &nbsp;    
 ### III. JavaScript OO
@@ -52,7 +54,7 @@ Link   | Tópico
 [04](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/04-Metodo-Constructor.md) | Método Constructor 
 [05](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/05-Metodos-Get-e-Set.md) | Métodos Get e Set
 [06](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/06-Operador-instanceof.md) | Operador instanceof
-[07](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/07-Trabalhando-com-Heranca.md) | Trabalhando com Heranca
+[07](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/07-Trabalhando-com-Heranca.md) | Trabalhando com Herança
 [08](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/08-Classes-e-Metodos-Abstratos.md) | Classes e Métodos Abstratos
 [09](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/09-Tipos-de-Valor-e-Referencia.md) | Tipos de Valor e de Referência
 [10](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-OO/10-Trabalhando-com-Modulos.md) | Trabalhando com Módulos

@@ -8,7 +8,7 @@
 **Módulos**
 &nbsp; 
 
-- Cada arquivo do JavaScript é um módulo individual que protege e encapsula o que há dentro dele.      
+- Cada arquivo do JavaScript é um módulo individual, que protege e encapsula o que há dentro dele.      
 &nbsp; 
 
 - Com a integração de diferentes módulos, é possível compartilhar código entre diferentes arquivos de um sistema.  
@@ -39,7 +39,7 @@ import { Cliente } from "./Cliente.js";
 
 &nbsp;
 
-**Para que o Node interprete que será trabalhado com módulos, devem ser inserida a seguinte chave e valor no arquivo package.json**
+**Para que o Node interprete que será trabalhado com módulos, deve ser inserida a seguinte chave e valor no arquivo package.json**
 ```json
 
 "type": "module" 
