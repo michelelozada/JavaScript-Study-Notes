@@ -4,6 +4,19 @@
 &nbsp;
      
 &nbsp; 
+Principais métodos para manipulação de strings 
+Método        | Descrição  
+:---          | :---
+concat()      |
+length()      | Retorna o tamanho da string 
+charAt()      | Retorna o caracter existente na posição especificada
+indexOf()     | Retorna a posição onde começa a primeira string informada
+lastIndexOf() | Retorna a posição onde começa a última string informada
+replace()     |
+slice()       |
+split()       |
+toUpperCase() | Converte o conteúdo da string para caracteres maiúsculos  
+toLowerCase() | Converte o conteúdo da string para caracteres minúsculos  
 
 **Exemplo a ser utilizado:**  
 ```js
@@ -23,7 +36,7 @@ console.log(frase.length) // Retorna: 114
 
 &nbsp;
 
-**Transforme as strings *autor* e *ocupacao* para carcateres maiúsculos e minúsculos, respectivamente**  
+**Transforme as strings *autor* e *ocupacao* para caracteres maiúsculos e minúsculos, respectivamente**  
 ```js
 
 const autor2 = autor.toUpperCase()

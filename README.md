@@ -43,6 +43,7 @@ Link   | Tópico
 [02](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-DOM/02-Metodos-Percorrer-Lista-Nos.md) | Métodos para Percorrer uma Lista de Nós
 [03](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-DOM/03-Metodos-Manipular-Nos.md) | Métodos para Manipular Nós
 [04](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-DOM/04-Trabalhando-com-Propriedades.md) | Trabalhando com Propriedades
+[05](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-DOM/05-Eventos-DOM.md) | Eventos DOM
 
 &nbsp;    
 ### III. JavaScript OO

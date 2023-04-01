@@ -22,6 +22,22 @@ console.log(palavra)
 
 // Retorna: Volkswagen 
 ```
+Modificando o conteúdo textual de elementos  
+```html
+
+<h1 id='pt-greeting'>Olá, Mundo!</h1>
+<h2 id='pt-greeting-2'>Como vai você?</h1>
+```
+```js
+
+document.querySelector('h1').textContent = 'Hello World!';
+document.querySelector('#pt-greeting-2').textContent = 'How are you doing?';
+
+/* Retorna: 
+Hello World!
+How are you doing?
+*/
+```
 
 &nbsp;   
 

@@ -6,7 +6,7 @@
 &nbsp;    
 
 **Principais métodos para manipulação de arrays**  
-Método | Função
+Método | Descrição
 :---   | :---
 filter()   |
 includes() | Verifica se um item informado está dentro do array

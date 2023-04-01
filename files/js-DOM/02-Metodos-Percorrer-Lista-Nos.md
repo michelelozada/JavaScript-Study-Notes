@@ -7,7 +7,7 @@
 **Métodos para percorrer uma lista de nós**
 &nbsp; 
 
-Através de alguns métodos aplicados junto ao objeto **`document`**, o JavaScript consegue percorrer a árvore DOM e localizar os objetos da aplicação desejados, estando abaixo alguns deles:      
+Através de alguns métodos aplicados junto ao objeto **`document`**, o JavaScript consegue percorrer a árvore DOM e localizar os objetos da aplicação desejados para a realização de alguma operação. Estão abaixo alguns deles:      
 
 &nbsp; 
 
@@ -39,19 +39,19 @@ document.getElementsByTagName("nome-da-tag");
 &nbsp;  
 
 - **Método `querySelector()`**  
-Localiza um elemento através do seletor CSS informado, retornando apenas o primeiro elemento-filho encontrado.    
+Localiza um elemento, retornando apenas o primeiro elemento-filho encontrado. O parâmetro recebido por este método pode ser o nome da tag, a classe, o id ou o data-attribute do elemento.  
 ```js
 
-document.querySelector("seletor-CSS");
+document.querySelector("parametro-escolhido");
 ```
 
 &nbsp;  
 
 - **Método `querySelectorAll()`**  
-Localiza elementos através do seletor CSS informado, retornando todos os elementos-filhos com seletores correspondentes.    
+Localiza elementos, retornando todos os elemento-filhos correspondentes. O parâmetro recebido por este método pode ser o nome da tag, a classe, o id ou o data-attribute do elemento.  
 ```js
 
-document.querySelectorAll("seletor-CSS");
+document.querySelectorAll("parametro-escolhido");
 ```
 
 &nbsp; 

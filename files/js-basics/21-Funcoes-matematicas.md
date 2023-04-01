@@ -9,7 +9,7 @@ Na linguagem JavaScript, realiza operações matemáticas, sendo que alguns de s
 
 &nbsp;
 
-**Arredondando um número: método `Math.round()`**  
+**Retornando o valor inteiro arredondado um número: método `Math.round()`**  
 ```js
 
 let num1 = Math.round(10.45);  
@@ -49,7 +49,7 @@ console.log(num1); // Retorna: 5
 
 &nbsp;
     
-**Retornando o valor de um número arredondado para cima: método `Math.ceil()`**  
+**Retornando o valor inteiro de um número arredondado para cima: método `Math.ceil()`**  
 ```js
 
 let num1 = 5.6;
@@ -63,7 +63,7 @@ console.log(num2); // Retorna: 6
 
 &nbsp;
     
-**Retornando o valor de um número arredondado para baixo: método `Math.floor()`**  
+**Retornando o valor inteiro de um número arredondado para baixo: método `Math.floor()`**  
 ```js
 
 let num1 = 5.6;
