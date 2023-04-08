@@ -41,9 +41,8 @@ How are you doing?
 
 &nbsp;   
 
-- **Propriedade `innerHTML`**  
-Obtém o conteúdo textual de elementos, incluindo a sua estrutura (formatações e tags HTML).  
-
+- **Propriedade `innerHTML`**     
+Obtém o conteúdo textual de elementos, incluindo a sua estrutura (formatações e tags HTML).    
 ```html
 
 <p id="frase"><em>Volkswagen</em> <br> é uma fabricante alemã de veículos.</p> 

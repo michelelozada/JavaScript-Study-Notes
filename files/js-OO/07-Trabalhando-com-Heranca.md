@@ -74,7 +74,7 @@ import { Conta } from "./Conta.js";
 
 export class ContaPoupanca extends Conta {
   constructor(saldoInicial, cliente, agencia) {
-    // chama-se aqui o código do construtor da classe-pai
+    // abaixo é chamado o contructor da classe que está sendo estendida
     super(saldoInicial, cliente, agencia);
   }
 }

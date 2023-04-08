@@ -9,8 +9,9 @@ Blocos de códigos que só são executados quando chamados.
 ```js
 
 // Sintaxe básica
+
 function nomeDaFunção(parâmetros) {
-	// Ação a ser realizada aqui
+  (...)
 }
 ```
 &nbsp;    

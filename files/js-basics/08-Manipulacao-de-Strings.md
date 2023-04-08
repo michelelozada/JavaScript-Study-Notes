@@ -18,6 +18,8 @@ split()       |
 toUpperCase() | Converte o conteúdo da string para caracteres maiúsculos  
 toLowerCase() | Converte o conteúdo da string para caracteres minúsculos  
 
+&nbsp;   
+
 **Exemplo a ser utilizado:**  
 ```js
 

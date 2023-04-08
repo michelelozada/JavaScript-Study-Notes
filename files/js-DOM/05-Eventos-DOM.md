@@ -20,9 +20,10 @@
 | onselect    | o usuário seleciona um campo de texto | 
 | onreset     | o usuário clica no botão para reiniciar um formulário |
 | onsubmit    | o usuário clica no botão para enviar um formulário |
+
 &nbsp;   
 
-A partir dos eventos, podem ser programadas ações para serem realizadas pelo programa.  
+A partir dos eventos, podem ser definidas ações para serem realizadas pelo programa.  
 &nbsp;   
 
 :arrow_forward: **Exemplo:** *Capturar o nome digitado pelo usuário e exibi-lo na tela, ao clique do botão*

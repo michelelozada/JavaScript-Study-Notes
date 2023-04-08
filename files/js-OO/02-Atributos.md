@@ -6,13 +6,20 @@
 &nbsp;   
 **Atributos**   
 Também chamados de campos ou propriedades de uma classe.  
+```js
+class Cliente {
+	nome;
+	cpf;
+}
+```
 
 &nbsp;  
 
 **Atributos privados**  
-Em JavaScript, a notação **`#`** antes de um atributo de classe, indica que o mesmo é privado, ou 
+- Em JavaScript, a notação **`#`** antes de um atributo de classe, indica que o mesmo é privado, ou 
 seja, que não é possível acessar ou visualizar seus atributos ou propriedades, fora de sua classe 
 (exceto se forem utilizados os métodos get e/ou set).  
+- Dessa forma, estes atributos não podem ser herdados por suas classes-filhas.    
 
 &nbsp;  
 

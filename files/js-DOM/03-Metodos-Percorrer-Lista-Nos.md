@@ -44,6 +44,11 @@ Localiza um elemento, retornando apenas o primeiro elemento-filho encontrado. O 
 
 document.querySelector("parametro-escolhido");
 ```
+```js
+
+// sintaxe para o caso de data-attributes
+document.querySelector("[data-attribute-aqui]");
+```
 
 &nbsp;  
 

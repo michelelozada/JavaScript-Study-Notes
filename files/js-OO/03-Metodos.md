@@ -105,6 +105,34 @@ conta1.identificaConta();
 
 &nbsp;
 
+**Métodos estáticos**  
+&nbsp; 
+
+- São definidos através da inclusão da palavra reservada **`static`** antes do método.    
+&nbsp; 
+
+- Estão vinculados à classe, e não à instância. Ou seja, podem ser executados sem a necessidade de se instanciar um objeto.   
+&nbsp; 
+
+- Métodos não estáticos necessitam que um objeto seja instanciado primeiro (i.e. o método é chamado pelo objeto).  
+&nbsp; 
+
+- Métodos estáticos são chamados pela classe diretamente (i.e. não precisam de uma instância específica da classe).    
+&nbsp; 
+
+*Sintaxe básica*   
+```js
+
+class nomeDaClasse {
+  static nomenomeDoMetodo() {
+    (...)	
+  } 
+}
+nomeDaClasse.nomeDoMetodo();
+```
+
+&nbsp;
+
 <div align="center">
 <a href="https://github.com/michelelozada/JavaScript-Study-Notes">[Voltar à tela inicial do repositório]</a>
 </div>

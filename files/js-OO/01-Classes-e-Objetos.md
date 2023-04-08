@@ -16,7 +16,7 @@ class Cliente {
 
 &nbsp;  
 
-**Criando um objeto cliente a partir da classe Cliente**
+**Criando/Instanciando um objeto cliente a partir da classe Cliente**
 ```js
 
 new Cliente();
@@ -24,7 +24,7 @@ new Cliente();
 
 &nbsp;  
 
-**Acima foi criado um objeto; porém ele não foi atribuído a uma variável de acesso, conforme exemplo abaixo**
+**Acima foi criado um objeto; porém ele não foi atribuído a uma variável de acesso, diferente do exemplo abaixo**
 ```js
 
 const cliente1 = new Cliente();

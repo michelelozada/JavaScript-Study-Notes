@@ -12,7 +12,7 @@ Nós podem ser criados, adicionados, substituidos ou removidos, estando abaixo a
 &nbsp; 
 
 - **Método `createElement()`**  
-Cria um elemento HTML, sendo que deve ser informada a tag do elemento no parâmetro.  
+Cria um elemento HTML.  
 ```js
 
 document.createElement(elemento);
