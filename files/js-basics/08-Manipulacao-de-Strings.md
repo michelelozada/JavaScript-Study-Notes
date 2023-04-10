@@ -3,8 +3,8 @@
 > GitHub: @michelelozada
 &nbsp;
      
-&nbsp; 
-Principais métodos para manipulação de strings 
+&nbsp;  
+**Principais métodos para manipulação de strings**  
 Método        | Descrição  
 :---          | :---
 concat()      |
@@ -111,6 +111,8 @@ console.log(final)
 
 // Retorna: Só sei que nada sei, e o fato de saber isso, me coloca em vantagem sobre aqueles que acham que sabem alguma coisa. - SÓCRATES (pensador grego)
 ```
+
+&nbsp;
 
 <div align="center">
 <a href="https://github.com/michelelozada/JavaScript-Study-Notes">[Voltar à tela inicial do repositório]</a>

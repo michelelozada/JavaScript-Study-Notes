@@ -8,8 +8,8 @@
 Também chamados de campos ou propriedades de uma classe.  
 ```js
 class Cliente {
-	nome;
-	cpf;
+  nome;
+  cpf;
 }
 ```
 
@@ -20,9 +20,6 @@ class Cliente {
 seja, que não é possível acessar ou visualizar seus atributos ou propriedades, fora de sua classe 
 (exceto se forem utilizados os métodos get e/ou set).  
 - Dessa forma, estes atributos não podem ser herdados por suas classes-filhas.    
-
-&nbsp;  
-
 ```js
 
 class Cliente {
@@ -45,24 +42,14 @@ class Cliente {
 &nbsp; 
 
 **Atributos estáticos**  
-&nbsp; 
-
 - São definidos através da inclusão da palavra reservada **`static`** antes do atributo de uma classe.    
-&nbsp; 
-
 - Com isso, tais atributos passam a estar atrelados à classe como um todo, e não um objeto criado por ela.      
-&nbsp; 
-
 - Portanto, atributos estáticos nunca são declarados dentro de um método construtor (já que 
 este método diz respeito a um objeto específico, e não a uma classe).     
-
 &nbsp; 
 
-O atributo estático usado no exemplo abaixo foi usado para a criação de um contador para informar
+:arrow_forward: O atributo estático usado no exemplo abaixo foi usado para a criação de um contador para informar
 o total de contas-correntes criadas, através do número de vezes que o método construtor foi invocado.   
-
-&nbsp; 
-
 ```js
 
 class ContaCorrente {

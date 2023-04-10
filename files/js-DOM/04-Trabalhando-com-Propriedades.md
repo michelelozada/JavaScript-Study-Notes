@@ -4,9 +4,7 @@
 &nbsp;
      
 &nbsp;   
-Existem propriedades do JavaScript que, atuando em conjunto com os métodos, ajudam a acessar e modificar o conteúdo de elementos HTML. 
-Algumas delas são:
-
+Existem propriedades do JavaScript que, atuando em conjunto com os métodos, ajudam a acessar e modificar o conteúdo de elementos HTML. Algumas delas são:    
 &nbsp;   
 
 - **Propriedade `textContent`**  
@@ -22,7 +20,9 @@ console.log(palavra)
 
 // Retorna: Volkswagen 
 ```
-Modificando o conteúdo textual de elementos  
+&nbsp;   
+
+:arrow_forward: **Exemplo:** Modificando o conteúdo textual de elementos  
 ```html
 
 <h1 id='pt-greeting'>Olá, Mundo!</h1>

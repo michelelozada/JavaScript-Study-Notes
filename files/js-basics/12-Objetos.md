@@ -3,9 +3,13 @@
 > GitHub: @michelelozada
 &nbsp;
      
-&nbsp; 
+&nbsp;    
+**Objetos**   
+Enquanto o array é uma estrutura de dados que, normalmente, armazena dados de mesmo tipo, os objetos são 
+utilizados para para armazenar dados relacionados, baseados em chaves nomeadas e seus valores.  
+&nbsp;   
 
-**Exercício: Declarar um objeto livro e manipular as suas propriedades**     
+:arrow_forward: **Exercício: Declarar um objeto livro e manipular as suas propriedades**     
 &nbsp;  
 
 *Declarando o objeto literal livro*  
@@ -28,7 +32,7 @@ const livro = {
 
 &nbsp; 
 
-*Acessando as propriedades e função do objeto*  
+*Acessando as propriedades e a função do objeto livro*  
 ```js
 
 console.log(livro.titulo); // 1ª maneira - notação de ponto. Retorna: O Poder do Hábito

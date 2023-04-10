@@ -5,7 +5,7 @@
      
 &nbsp;   
  
-**1 - Operador lógico `AND`**  
+**1 - Operador lógico AND (`&&`)**  
 ```js
 
 let hora = 12;
@@ -21,7 +21,7 @@ if (hora >= 10 && hora <= 16) {
 
 &nbsp;   
 
-**2 - Operador lógico `OR`**  
+**2 - Operador lógico OR (`||`)**  
 ```js
 
 let horario = 12;
@@ -38,7 +38,7 @@ if (horario < 10 || horario > 16 || diaUtil == false) {
 
 &nbsp;   
 
-**3 - Operador lógico `NOT`**
+**3 - Operador lógico NOT (`!`)**
 ```js
 
 let gestante = true;
@@ -54,7 +54,7 @@ if (!gestante) {
 
 &nbsp;   
 
-**4 - Operador lógico `NOT`, com dupla negação para conversão em valor booleano real**  
+**4 - Operador lógico NOT com dupla negação (`!!`) para conversão em valor booleano real**  
 ```js
 
 let saldoCliente = 3000.00;

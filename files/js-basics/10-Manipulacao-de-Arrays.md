@@ -5,7 +5,7 @@
      
 &nbsp;    
 
-**Principais métodos para manipulação de arrays**  
+**Principais métodos para manipulação de arrays:**  
 Método | Descrição
 :---   | :---
 filter()   |
@@ -14,7 +14,7 @@ indexOf()  | Retorna o índice da primeira ocorrência de um valor especifico em
 join()     |
 length()   |
 map()      |
-pop()      | Retira o primeiro elemento do array. Altera o array original. 
+pop()      | Remove o último elemento do array. Altera o array original. Retorna o item removido.
 push()     | Adiciona o elemento passado na última posição do array. Altera o array original.
 reduce()   |
 reverse()  | Inverte a ordem do array (último elemento vira primeiro e assim sucessivamente)
@@ -24,13 +24,15 @@ splice()   | Altera o conteúdo de um array, excluindo um valor dentro de um arr
 unshift()  |
 
 &nbsp;    
-**1 - O array de exemplo:**  
+
+**1 - O array de exemplo**  
 ```js
 
 let osSimpsons = ['Homer','Merge','Bart','Lisa'];
 ```
 
 &nbsp;  
+
 **2 - Informando quantos elementos há neste array, através do método `length()`**    
 ```js
 
@@ -38,6 +40,7 @@ console.log(osSimpsons.length); // Retorna: 4
 ```
 
 &nbsp;  
+
 **3 - Informando qual o conteúdo do índice 3**  
 ```js
 
@@ -45,6 +48,7 @@ console.log(osSimpsons[3]); // Retorna: Lisa
 ```
 
 &nbsp;  
+
 **4 - Incluindo mais um elemento à lista**  
 ```js
 
@@ -55,6 +59,7 @@ console.log(osSimpsons);
 ```
 
 &nbsp;  
+
 **5 - Retornando o índice dos elementos informados, através do método `indexOf()`**    
 
 ```js
@@ -64,6 +69,7 @@ console.log(osSimpsons.indexOf('Bart'));  // Retorna: 2
 ```
 
 &nbsp;  
+
 **6 - Adicionando um novo elemento no fim da lista, através do método `push()`**
 ```js
 
@@ -74,6 +80,7 @@ console.log(osSimpsons);
 ```
 
 &nbsp;  
+
 **7 - Retirando o último elemento da lista, através do método `pop()`**  
 ```js
 
@@ -84,6 +91,7 @@ console.log(osSimpsons);
 ```
 
 &nbsp;  
+
 **8- Retirando o primeiro elemento da lista, através do método `shift()`**  
 ```js
 
@@ -94,6 +102,7 @@ console.log(osSimpsons);
 ```
 
 &nbsp;  
+
 **9 - Retornando ao estado anterior da lista, através do método `unshift()`**  
 ```js
 
@@ -104,6 +113,7 @@ console.log(osSimpsons);
 ```
 
 &nbsp;  
+
 **10 - Verificando se os elementos abaixo informados estão na lista, através do método `includes()`**  
 
 ```js
@@ -114,6 +124,7 @@ console.log(osSimpsons.includes('Mr. Burns')); // Retorna: false
 ```
 
 &nbsp;   
+
 **11 - Criando um novo array de forma que, ao invés de aparecer os nomes, apareça quem é quem dentro da família Simpson. O nome da Lisa, porém, é o único que deve continuar aparecendo na lista!**  
 ```js
 
@@ -140,9 +151,13 @@ console.log(familia);
 ```
 
 &nbsp;  
+
 **12 - Removendo os itens do array atual (os apelidos) e substituindo-os por novos itens (no caso, os nomes completos), através do método `splice()`**   
-*(Primeiro parâmetro: índice onde se iniciará a alteração; segundo parâmetro: nº de itens da lista que devem ser removidos, a partir do índice definido anteriormente;
-(opcional) Demais parâmetros: inclusão novos itens (strings) a ser adicionados à lista, onde outros itens foram removidos).*    
+&nbsp;  
+
+- *Primeiro parâmetro: índice onde se iniciará a alteração;*   
+- *Segundo parâmetro: nº de itens da lista que devem ser removidos, a partir do índice definido anteriormente;*  
+- *(opcional) Demais parâmetros: inclusão novos itens (strings) a ser adicionados à lista, onde outros itens foram removidos).*    
 ```js
 
 // Sintaxe: 
@@ -160,8 +175,8 @@ console.log(osSimpsons);
  ] 
 */
 ```
-
 &nbsp;  
+
 **13 - Apresentando o array com seus itens na ordem inversa, através do método `reverse()`** 
 ```js
 
@@ -177,8 +192,8 @@ console.log(osSimpsons.reverse());
  ] 
 */
 ```
-
 &nbsp;  
+
 **14 - Apresentando o array em ordem alfabética, através do método `sort()`**  
 ```js
 
@@ -196,6 +211,7 @@ console.log(osSimpsons.sort());
 ```
 
 &nbsp;  
+
 **15 - Por fim, apresentando uma string gerada a partir do array, através do método `join()`**   
 ```js
 
@@ -205,6 +221,7 @@ console.log(osSimpsons.join(espacamento = ' - '));
 ```
 
 &nbsp;  
+
 **16 - O array abaixo é sobre a idade que (estima-se!) os cinco personagens tinham em 1987. Retorne as idade *apenas* das crianças, usando o método `filter()`**  
 ```js
 
@@ -217,6 +234,7 @@ console.log(`Idades apenas das crianças: ${idades1987}`);
 ```
 
 &nbsp;  
+
 **17 - A idade somada de todos os integrantes em 1987 é 89 anos. Crie um algoritmo que chegue a este resultado, através do método `reduce()`**  
 ```js
 

@@ -3,9 +3,41 @@
 > GitHub: @michelelozada
 &nbsp;
      
+&nbsp;   
+**1 - Função anônima**
 &nbsp;  
-**Sintaxe básica**  
+
+- É uma função sem nome, sendo que para chamá-la temos de atribuí-la a uma variável.  
+&nbsp;  
+
+- Pode ser usada como argumento em outras funções.  
+&nbsp;  
+
 ```js
+
+// Sintaxe básica
+let exemplo = function() {
+  console.log('Esta é uma função anônima');
+}
+```
+```js
+
+setTimeout(function() {
+  console.log('Foi impresso na tela após 3 segundos');
+}, 3000)
+```
+
+&nbsp;  
+
+**2 - Arrow function**
+&nbsp;  
+
+É uma função anônima, portanto, para ser executada chamamos a variável na qual esta função foi atribuída.  
+&nbsp;  
+
+```js
+
+// Sintaxe básica  
 
 (num1, num2) => num1 + num2; 
 ```
@@ -41,7 +73,7 @@ console.log(resultado(4, 10));  // Retorna: 40
 
 &nbsp;  
 
-**Exercício:** Escreva um algoritmo que leia dois números e faça as operações de soma, subtração, multiplicação e divisão. Devem ser usadas arrow functions para isso.   
+:arrow_forward: **Exercício:** Escreva um algoritmo que leia dois números e faça as operações de soma, subtração, multiplicação e divisão. Devem ser usadas arrow functions para isso.   
 
 ```js
 
