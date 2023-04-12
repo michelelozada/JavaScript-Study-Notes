@@ -71,14 +71,36 @@ botaoEnvio.onclick = exibirAlerta;
 &nbsp;  
 
 **Método `addEventListener()`**  
-Associa uma função a determinado elemento.  
+Permite que seja atrelada uma função a um determinado elemento HTML, sendo que esta função será chamada quando um 
+determinado evento acontecer.  
 
 ```js
 
-elemento.addEventListener(evento, callback, false ou true)
+// Sintaxe básica
+target.addEventListener(event, function, useCapture)
 
-// No primeiro parâmetro: qual o evento
-// No segundo parâmetro: qual a função será executada quando o evento ocorrer   
+// target: é o elemento HTML a que estará associado este método 
+// event: definição de qual é o tipo do evento (click, blur, focus, etc)
+// function: qual é a função a ser executada quando o evento for detectado
+// useCapture: opcional; por default, é false. 
+```
+
+&nbsp;  
+
+:arrow_forward: **Exemplo:** Criando um botão que exiba uma mensagem no console quando clicado.  
+```html
+
+<button id="botao">Clique aqui</button>
+```
+```js
+
+// Selecionando o elemento HTML que estará atrelado ao evento
+let button = document.getElementById('botao');
+
+// Implementando o método para chamada da função ao clique do botão
+button.addEventListener('click', function() {
+  console.log('O botão acabou de ser clicado!');
+});
 ```
 
 &nbsp; 

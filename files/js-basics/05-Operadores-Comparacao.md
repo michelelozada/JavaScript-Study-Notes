@@ -91,41 +91,41 @@ console.log('dia' == 'dia'); // Retorna: true
 &nbsp;    
 
 **9 - Diferença entre *igual a* (`==`) e *idêntico a* (`===`)**  
-- **Igual a (`==`)**  - verifica se as variáveis apresentam o mesmo valor.    
-- **Idêntico a (`=== `)** - além de verificar se têm o mesmo valor, compara se as variáveis são do mesmo tipo.      
+- **Igual a (`==`)**  - verifica se as variáveis apresentam o ***mesmo valor***.    
+- **Idêntico a (`===`)** - além de verificar se têm o ***mesmo valor***, compara se as variáveis são do ***mesmo tipo***.      
 - *Aqui há a coversão das strings em números para a comparação.*  
 &nbsp;   
 ```js
 
 console.log(false == "false");  // Retorna: false (valor booleano false foi convertido aqui para o número 0)
-console.log(5 == "5");  // Retorna: true
+console.log(5 == "5");  // Retorna: true (aqui JS converte a string 5 para número)
 console.log(false == false);  // Retorna: true
 console.log(5 == 5);  // Retorna: true
 
 console.log(false === "false");  // Retorna: false
-console.log(5 === "5");  // Retorna: false
+console.log(5 === "5");  // Retorna: false (aqui não ha conversão da string 5 para número)
 console.log(false === false);  // Retorna: true 
 console.log(5 === 5);  // Retorna: true
 ```
 &nbsp;    
 
-*10 - Diferença entre *diferente de* (`!=`) e *não idêntico a* (`!==`)**  
-- **Diferente de (`!=`)**  - verifica se as variáveis tem valores diferentes.     
-- **Não idêntico a (`!== `)** - além de verificar se têm valores diferentes, compara se as variáveis também diferem em seus tipos.  
+**10 - Diferença entre *diferente de* (`!=`) e *não idêntico a* (`!==`)**  
+- **Diferente de (`!=`)**  - verifica se as variáveis tem ***valores diferentes***.     
+- **Não idêntico a (`!==`)** - além de verificar se têm ***valores diferentes***, compara se as variáveis também tâm ***tipos diferentes***.  
 - *Aqui não há a coversão das strings em números para a comparação.*  
 &nbsp;   
 
 ```js
 
 console.log(false != "false");  // Retorna: true
-console.log(5 != "5");  // Retorna: false
+console.log(5 != "5");  // Retorna: false (aqui JS converte a string 5 para número)
 console.log(false != false);  // Retorna: false
 console.log(5 != 5);  // Retorna: false 
 
 
 console.log(false !== "false");  // Retorna: true
-console.log(5 !== "5");  // Retorna: true
-console.log(false !== false);  // Retorna:false
+console.log(5 !== "5");  // Retorna: true (aqui não ha conversão da string 5 para número)
+console.log(false !== false);  // Retorna: false
 console.log(5 !== 5);  // Retorna: false
 ```
 
