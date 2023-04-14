@@ -7,7 +7,7 @@
 **Eventos**   
 - São ações que são disparadas quando o usuário ou o navegador manipulam uma página.   
 - Ou seja, é ativada uma função quando uma determinada ação for produzida pelo usuário ou pelo navegador.  
-- Clicar em um botão, selecionar um input para inserir dados ou o enviar um formulário são exemplos de eventos.  
+- Exemplos de eventos: clicar em um botão, selecionar um input para inserir dados ou o enviar um formulário.  
 
 &nbsp;    
 
@@ -71,7 +71,7 @@ botaoEnvio.onclick = exibirAlerta;
 &nbsp;  
 
 **Método `addEventListener()`**  
-Permite que seja atrelada uma função a um determinado elemento HTML, sendo que esta função será chamada quando um 
+Permite que seja atrelada um manipulador de eventos a um determinado elemento HTML, sendo que esta função será chamada quando um 
 determinado evento acontecer.  
 
 ```js
@@ -80,9 +80,9 @@ determinado evento acontecer.
 target.addEventListener(event, function, useCapture)
 
 // target: é o elemento HTML a que estará associado este método 
-// event: definição de qual é o tipo do evento (click, blur, focus, etc)
+// event: definição de qual é o tipo do evento (click, submit, focus, etc)
 // function: qual é a função a ser executada quando o evento for detectado
-// useCapture: opcional; por default, é false. 
+// useCapture: opcional; por default, valor é false. 
 ```
 
 &nbsp;  
@@ -98,7 +98,12 @@ target.addEventListener(event, function, useCapture)
 let button = document.getElementById('botao');
 
 // Implementando o método para chamada da função ao clique do botão
-button.addEventListener('click', function() {
+button.addEventListener('click', function(evento) {
+  console.log('O botão acabou de ser clicado!');
+});
+
+// Sintaxe alternativa para o bloco acima (utilizando uma arrow function)
+button.addEventListener('click', (evento) => {
   console.log('O botão acabou de ser clicado!');
 });
 ```

@@ -61,6 +61,16 @@ document.querySelectorAll("parametro-escolhido");
 
 &nbsp; 
 
+- **Método `closest()`**  
+Retorna o primeiro elemento DOM ‘ancestral’ do elemento que foi especificado no parâmetro; se não houver correspondência, retornará nulo. 
+```js
+
+const element = document.getElementById("elemento-filho-aqui");
+const closest = element.closest("elemento-ancestral-aqui");
+```
+
+&nbsp; 
+
 <div align="center">
 <a href="https://github.com/michelelozada/JavaScript-Study-Notes">[Voltar à tela inicial do repositório]</a>
 </div>
