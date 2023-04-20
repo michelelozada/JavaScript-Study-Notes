@@ -15,13 +15,13 @@ join()     |
 length()   |
 map()      |
 pop()      | Remove o último elemento do array. Altera o array original. Retorna o item removido.
-push()     | Adiciona o elemento passado na última posição do array. Altera o array original.
+push()     | Adiciona o elemento passado na *última posição* do array. Altera o array original.
 reduce()   |
 reverse()  | Inverte a ordem do array (último elemento vira primeiro e assim sucessivamente)
 shift()    | Retira o primeiro elemento do array. Altera array original e troca índice dos elementos remanescentes.
 sort()     | Organiza o array em classificação crescente.
 splice()   | Altera o conteúdo de um array, excluindo um valor dentro de um array, adicionando (ou não) outro(s) valor(es) ali.
-unshift()  |
+unshift()  | Adiciona o elemento passado na *primeira posição* do array. Altera o array original.  
 
 &nbsp;    
 
@@ -129,22 +129,22 @@ console.log(osSimpsons.includes('Mr. Burns')); // Retorna: false
 ```js
 
 let familia = osSimpsons.map(function (membroFamilia) {
-    if (membroFamilia === 'Homer') {
-        return (membroFamilia = 'Pai')
-    }
-    if (membroFamilia === 'Merge') {
-        return (membroFamilia = 'Mãe')
-    }
-    if (membroFamilia === 'Bart') {
-        return (membroFamilia = 'Irmão mais velho')
-    }
-    if (membroFamilia === 'Maggie') {
-        return (membroFamilia = 'Irmã mais nova')
-    }
-    else {
-        return membroFamilia
-    }
-})
+  if (membroFamilia === 'Homer') {
+    return (membroFamilia = 'Pai')
+  }
+  if (membroFamilia === 'Merge') {
+    return (membroFamilia = 'Mãe')
+  }
+  if (membroFamilia === 'Bart') {
+    return (membroFamilia = 'Irmão mais velho')
+  }
+  if (membroFamilia === 'Maggie') {
+    return (membroFamilia = 'Irmã mais nova')
+  }
+  else {
+    return membroFamilia
+  }
+});
 console.log(familia);
 
 // Retorna: ['Pai', 'Mãe', 'Irmão mais velho', 'Lisa', 'Irmã mais nova']
@@ -166,13 +166,13 @@ osSimpsons.splice(0,5,'Homer Jay Simpson','Marjorie Bouvier Simpson','Bartholome
 console.log(osSimpsons);
 
 /* Retorna:
- [
-    'Homer Jay Simpson', 
-    'Marjorie Bouvier Simpson', 
-    'Bartholomew Simpson', 
-    'Elizabeth Marie Simpson', 
-    'Margaret Simpson'
- ] 
+[
+  'Homer Jay Simpson', 
+  'Marjorie Bouvier Simpson', 
+  'Bartholomew Simpson', 
+  'Elizabeth Marie Simpson', 
+  'Margaret Simpson'
+] 
 */
 ```
 &nbsp;  
@@ -183,13 +183,13 @@ console.log(osSimpsons);
 console.log(osSimpsons.reverse());
 
 /* Retorna: 
- [
-    'Margaret Simpson', 
-    'Elizabeth Marie Simpson', 
-    'Bartholomew Simpson', 
-    'Marjorie Bouvier Simpson', 
-    'Homer Jay Simpson'
- ] 
+[
+  'Margaret Simpson', 
+  'Elizabeth Marie Simpson', 
+  'Bartholomew Simpson', 
+  'Marjorie Bouvier Simpson', 
+  'Homer Jay Simpson'
+] 
 */
 ```
 &nbsp;  
@@ -200,13 +200,13 @@ console.log(osSimpsons.reverse());
 console.log(osSimpsons.sort());
 
 /* Retorna: 
- [
-    'Bartholomew Simpson', 
-    'Elizabeth Marie Simpson', 
-    'Homer Jay Simpson', 
-    'Margaret Simpson', 
-    'Marjorie Bouvier Simpson'
- ] 
+[
+  'Bartholomew Simpson', 
+  'Elizabeth Marie Simpson', 
+  'Homer Jay Simpson', 
+  'Margaret Simpson', 
+  'Marjorie Bouvier Simpson'
+] 
 */
 ```
 
@@ -226,8 +226,8 @@ console.log(osSimpsons.join(espacamento = ' - '));
 ```js
 
 const idades1987 = [36, 34, 10, 8, 1].filter(function (idade) {
-    return idade < 13
-})
+  return idade < 13
+});
 console.log(`Idades apenas das crianças: ${idades1987}`);
 
 // Retorna: As idades das crianças: 10,8,1
@@ -239,7 +239,7 @@ console.log(`Idades apenas das crianças: ${idades1987}`);
 ```js
 
 const somaIdades = [36,34,10,8,1].reduce(function(soma,idade){
-	return soma + idade
+  return soma + idade
 });
 console.log(`A soma das idades dos cinco integrantes da família tem como resultado ${somaIdades} anos.`);
 

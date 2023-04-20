@@ -1,11 +1,11 @@
-> **Operadores de String**  
+> **Interpolando strings**  
 > Repositório: JavaScript - Notas de estudo     
 > GitHub: @michelelozada
 &nbsp;
      
 &nbsp; 
 
-**1 - Operador de concatenação (`+`)**  
+**1 - Através do operador de concatenação (`+`)**  
 ```js
 
 let fullName = 'Leonardo Dias'; 
@@ -16,7 +16,7 @@ console.log("Olá," + " " + fullName + ". Seja bem-vindo!");
 
 &nbsp; 
 
-**2 - Operador de atribuição encurtado (`+=`)**  
+**2 - Através do operador de atribuição encurtado (`+=`)**  
 ```js
 
 let profession = "Desenvolvedor";
@@ -28,9 +28,9 @@ console.log(profession)
 
 &nbsp; 
 
-**Alternativa! - Template Literals/Template Strings**  
-- Funcionalidade disponível a partir do ES6
-- Para concatenação/interpolação de strings com código JS, sem a necessidade do uso do sinal `+`
+**3 - Através de template literals/template strings**  
+\- Funcionalidade disponível a partir do ES6
+\- Para concatenação/interpolação de strings com código JS, sem a necessidade do uso do sinal `+`
 
 &nbsp; 
 

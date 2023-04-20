@@ -35,7 +35,7 @@ console.log('a'/5);
 ```js
 
 let c = 'Tipos de variáveis utilizadas em JavaScript!';
-console.log(typeof d);
+console.log(typeof c);
 
 // retorna: string
 ```

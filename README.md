@@ -17,24 +17,25 @@ Link   | Tópico
 [05](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/05-Operadores-de-Atribuicao.md) | Operadores de Atribuição 
 [06](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/06-Operadores-Comparacao.md) | Operadores de Comparação
 [07](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/07-Operadores-Logicos.md) | Operadores Lógicos    
-[08](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/08-Operadores-de-String.md) | Operadores de String    
-[09](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/09-Manipulacao-de-Strings.md) | Manipulação de Strings   
-[10](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/10-Arrays.md) | Arrays   
-[11](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/11-Manipulacao-de-Arrays.md) | Manipulação de Arrays   
-[12](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/12-Percorrendo-um-Array.md) | Percorrendo um Array   
-[13](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/13-Objetos.md) | Objetos em JavaScript  
-[14](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/14-Estrutura-Decisao-If-Else.md) | Estrutura de Decisão - If Else 
-[15](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/15-Estrutura-Decisao-If-Else-If.md) | Estrutura de Decisão - If Else If  
-[16](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/16-Estrutura-Decisao-Switch-Case.md) | Estrutura de Decisão - Switch Case 
-[17](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/17-Estrutura-Repeticao-Loop-For.md) | Estrutura de Repetição - Loop For 
-[18](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/18-Estrutura-Repeticao-Loop-While.md) | Estrutura de Repetição - Loop While  
-[19](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/19-Estrutura-Repeticao-Loop-Do-While.md) | Estrutura de Repetição - Loop Do... While  
-[20](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/20-Comandos-Continue-e-Break.md) | Comandos Continue e Break 
-[21](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/21-Funcoes.md) | Funções  
-[22](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/22-Funcoes-matematicas.md) | Funções Matemáticas
-[23](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/23-Arrow-Functions.md) | Arrow Functions   
-[24](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/24-Metodo-Prompt.md) | Método prompt() 
-[25](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/25-Trabalhando-com-Datas.md) | Trabalhando com Datas em JavaScript
+[08](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/08-Outros-Operadores-Uteis.md) | Outros Operadores Úteis
+[09](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/09-Interpolando-Strings.md) | Interpolando Strings
+[10](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/10-Manipulacao-de-Strings.md) | Manipulação de Strings   
+[11](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/11-Arrays.md) | Arrays   
+[12](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/12-Manipulacao-de-Arrays.md) | Manipulação de Arrays   
+[13](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/13-Percorrendo-um-Array.md) | Percorrendo um Array   
+[14](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/14-Objetos.md) | Objetos em JavaScript  
+[15](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/15-Estrutura-Decisao-If-Else.md) | Estrutura de Decisão - If Else 
+[16](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/16-Estrutura-Decisao-If-Else-If.md) | Estrutura de Decisão - If Else If  
+[17](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/17-Estrutura-Decisao-Switch-Case.md) | Estrutura de Decisão - Switch Case 
+[18](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/18-Estrutura-Repeticao-Loop-For.md) | Estrutura de Repetição - Loop For 
+[19](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/19-Estrutura-Repeticao-Loop-While.md) | Estrutura de Repetição - Loop While  
+[20](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/20-Estrutura-Repeticao-Loop-Do-While.md) | Estrutura de Repetição - Loop Do... While  
+[21](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/21-Comandos-Continue-e-Break.md) | Comandos Continue e Break 
+[22](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/22-Funcoes.md) | Funções  
+[23](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/23-Funcoes-matematicas.md) | Funções Matemáticas
+[24](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/24-Arrow-Functions.md) | Arrow Functions   
+[25](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/25-Metodo-Prompt.md) | Método prompt() 
+[26](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/26-Trabalhando-com-Datas.md) | Trabalhando com Datas em JavaScript
 
 &nbsp;    
 ### II. JavaScript DOM
