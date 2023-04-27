@@ -121,7 +121,7 @@ console.log("Tem " + frutaPesquisada.toLowerCase() + " na cesta? " + resposta);
 
 &nbsp;
 
-**3 - Exemplo similar ao de acima, mas utilizando agora o método `forEach()`**  
+**3 - Exemplo similar ao anterior, mas utilizando agora o método `forEach()`**  
 ```js
 
 const cestaDeFrutas = [

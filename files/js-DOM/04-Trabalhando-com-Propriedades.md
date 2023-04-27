@@ -74,6 +74,25 @@ console.log(valor)
 
 &nbsp; 
 
+- **Propriedade `parentNode`**  
+Retorna o nó pai de um elemento  
+
+```html
+
+<div id="container">
+  <p class="texto">Testando parentNode...</p>
+</div>
+```
+```js
+
+const teste = document.querySelector('.texto');
+console.log(teste.parentNode);
+
+// Irá retornar a div
+```
+
+&nbsp; 
+
 <div align="center">
 <a href="https://github.com/michelelozada/JavaScript-Study-Notes">[Voltar à tela inicial do repositório]</a>
 </div>

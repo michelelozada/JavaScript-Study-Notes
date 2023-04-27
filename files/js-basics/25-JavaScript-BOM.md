@@ -1,17 +1,23 @@
-> **Método prompt()**  
+> **JavaScript BOM**  
 > Repositório: JavaScript - Notas de estudo  
 > GitHub: @michelelozada
 &nbsp;
      
 &nbsp;  
+**BOM (aka Browser Object Method)**  
+Objetos relativos à navegação web   
+  - No primeiro nível está o objeto window  
+	- No segundo nível estão os objetos: document, screen, location, history, navigator e frames  
 
-**Método prompt()**  
-- Captura a entrada feita pelo usuário.    
-- Retorna o que foi digitado como uma string.  
-- Portanto, se o intuito for ler um número inteiro ou decimal fornecidos pelo método **`prompt()`**, deve-se converter o valor digitado através de **`parseInt()`** ou **`parseFloat()`**, respectivamente. 
-&nbsp;
+&nbsp; 
+
+**1 - Método prompt()**  
+\- Solicita e captura entrada de texto feita pelo usuário   
+\- Retorna o que foi digitado como uma string  
+\- Portanto, se o intuito for ler um número inteiro ou decimal fornecidos pelo método **`prompt()`**, deve-se converter o valor digitado através de **`parseInt()`** ou **`parseFloat()`**, respectivamente  
      
 &nbsp;     
+
 :arrow_forward: **Exemplo:** *Escreva um algoritmo que solicite dados do usuário para cadastramento de um produto*
 ```html
 
@@ -41,6 +47,15 @@
 		</script>
 	</body>
 </html>
+```
+
+&nbsp;
+
+**2 - Location**  
+
+```js
+
+window.location.href = “endereco-do-arquivo-aqui”;
 ```
 
 &nbsp;

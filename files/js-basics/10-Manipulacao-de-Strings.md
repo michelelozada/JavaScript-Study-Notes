@@ -7,20 +7,20 @@
 **Principais métodos para manipulação de strings**  
 Método        | Descrição  
 :---          | :---
-concat()      |
-length()      | Retorna o tamanho da string 
-charAt()      | Retorna o caracter existente na posição especificada
-indexOf()     | Retorna a posição onde começa a primeira string informada
-lastIndexOf() | Retorna a posição onde começa a última string informada
-replace()     |
-slice()       |
-split()       |
-toUpperCase() | Converte o conteúdo da string para caracteres maiúsculos  
-toLowerCase() | Converte o conteúdo da string para caracteres minúsculos  
+[charAt()](#informe-qual-o-caractere-que-est%C3%A1-no-%C3%ADndice-9-da-string-ocupacao3)| Retorna o caracter existente na posição especificada
+[concat()](#por-fim-realize-a-concatenação-das-strings-para-impressão-da-citação-e-do-seu-autor) |
+[indexOf()](#localize-as-palavras-sei-e-compreendo-na-string-frase) | Retorna a posição onde começa a primeira string informada
+[lastIndexOf()](#localize-as-palavras-sei-e-compreendo-na-string-frase) | Retorna a posição onde começa a última string informada
+[length()](#informe-quantos-caracteres-tem-a-string-frase) | Retorna o tamanho da string 
+[replace()](#substitua-a-identificação-filósofo-ateniense-por-pensador-grego) |
+[slice()](#extraia-da-string-frase-a-versão-compacta-mais-conhecida-desta-citação) |
+[split()](#imprima-a-string-fraseredux-sendo-uma-palavra-por-linha) |
+[toUpperCase()](#transforme-as-strings-autor-e-ocupacao-para-caracteres-maiúsculos-e-minúsculos-respectivamente) | Converte o conteúdo da string para caracteres maiúsculos  
+[toLowerCase()](#transforme-as-strings-autor-e-ocupacao-para-caracteres-maiúsculos-e-minúsculos-respectivamente) | Converte o conteúdo da string para caracteres minúsculos  
 
 &nbsp;   
 
-**Exemplo a ser utilizado:**  
+#### **Exemplo a ser utilizado:**  
 ```js
 
 const frase = "Só sei que nada sei, e o fato de saber isso, me coloca em vantagem sobre aqueles que acham que sabem alguma coisa.";
@@ -30,7 +30,7 @@ const ocupacao = "FILÓSOFO ATENIENSE";
 
 &nbsp;
 
-**Informe quantos caracteres tem a string *frase*:**  
+#### **Informe quantos caracteres tem a string *frase*:**  
 ```js
 
 console.log(frase.length) // Retorna: 114
@@ -38,7 +38,7 @@ console.log(frase.length) // Retorna: 114
 
 &nbsp;
 
-**Transforme as strings *autor* e *ocupacao* para caracteres maiúsculos e minúsculos, respectivamente**  
+#### **Transforme as strings *autor* e *ocupacao* para caracteres maiúsculos e minúsculos, respectivamente**  
 ```js
 
 const autor2 = autor.toUpperCase()
@@ -49,7 +49,7 @@ console.log(ocupacao2) // Retorna: filósofo ateniense
 
 &nbsp;
 
-**Localize as palavras '*sei*' e '*compreendo*' na string *frase***  
+####  **Localize as palavras '*sei*' e '*compreendo*' na string *frase***  
 ```js
 
 console.log(frase.indexOf('sei')) // Retorna: 3 (a primeira ocorrência da palavra 'sei' se dá no índice de nº 3 da string)
@@ -59,7 +59,7 @@ console.log(frase.indexOf('compreendo')) // Retorna: -1 (indica que não foi enc
 
 &nbsp;
 
-**Extraia da string *frase* a 'versão compacta' mais conhecida desta citação**
+#### **Extraia da string *frase* a 'versão compacta' mais conhecida desta citação**
 ```js
 
 const fraseRedux = frase.slice(0,19)
@@ -68,7 +68,7 @@ console.log(fraseRedux) // Retorna: Só sei que nada sei
 
 &nbsp;
 
-**Imprima a string *fraseRedux*, sendo uma palavra por linha**   
+#### **Imprima a string *fraseRedux*, sendo uma palavra por linha**   
 ```js
 
 const array = fraseRedux.split(' ')
@@ -87,7 +87,7 @@ sei
 
 &nbsp;
 
-**Substitua a identificação '*filósofo ateniense*' por '*pensador grego*'**
+#### **Substitua a identificação '*filósofo ateniense*' por '*pensador grego*'**
 ```js
 
 const ocupacao3 = ocupacao2.replace('filósofo','pensador').replace('ateniense','grego')
@@ -95,7 +95,7 @@ console.log(ocupacao3) // Retorna: pensador grego
 ```
 &nbsp;
 
-**Informe qual o caractere que está no índice 9 da string *ocupacao3***   
+#### **Informe qual o caractere que está no índice 9 da string *ocupacao3***   
 ```js
 
 console.log(ocupacao3.charAt(9)) //Retorna: g
@@ -103,7 +103,7 @@ console.log(ocupacao3.charAt(9)) //Retorna: g
 
 &nbsp;
 
-**Por fim, realize a concatenação das strings para impressão da citação e do seu autor**  
+#### **Por fim, realize a concatenação das strings para impressão da citação e do seu autor**  
 ```js
 
 final = frase.concat(' - ',autor2,' (',ocupacao3,')');

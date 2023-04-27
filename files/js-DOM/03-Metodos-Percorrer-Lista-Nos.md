@@ -39,24 +39,29 @@ document.getElementsByTagName("nome-da-tag");
 &nbsp;  
 
 - **Método `querySelector()`**  
-Localiza um elemento, retornando apenas o primeiro elemento-filho encontrado. O parâmetro recebido por este método pode ser o nome da tag, a classe, o id ou o data-attribute do elemento.  
+Localiza um elemento, retornando apenas o primeiro elemento-filho encontrado. O parâmetro recebido por este método pode ser o nome da tag, a classe, o id ou um atributo do elemento.  
 ```js
 
 document.querySelector("parametro-escolhido");
 ```
 ```js
 
-// sintaxe para o caso de data-attributes
+// sintaxe para o caso de um data-attribute
 document.querySelector("[data-attribute-aqui]");
 ```
 
 &nbsp;  
 
 - **Método `querySelectorAll()`**  
-Localiza elementos, retornando todos os elemento-filhos correspondentes. O parâmetro recebido por este método pode ser o nome da tag, a classe, o id ou o data-attribute do elemento.  
+Localiza elementos, retornando todos os elemento-filhos correspondentes. O parâmetro recebido por este método pode ser o nome da tag, a classe, o id ou um atributo do elemento.  
 ```js
 
 document.querySelectorAll("parametro-escolhido");
+```
+```js
+
+// sintaxe para o caso da busca de elementos com o atributo required
+document.querySelectorAll("[required]");
 ```
 
 &nbsp; 

@@ -33,9 +33,8 @@ Link   | Tópico
 [21](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/21-Comandos-Continue-e-Break.md) | Comandos Continue e Break 
 [22](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/22-Funcoes.md) | Funções  
 [23](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/23-Funcoes-matematicas.md) | Funções Matemáticas
-[24](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/24-Arrow-Functions.md) | Arrow Functions   
-[25](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/25-Metodo-Prompt.md) | Método prompt() 
-[26](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/26-Trabalhando-com-Datas.md) | Trabalhando com Datas em JavaScript
+[24](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/24-Trabalhando-com-Datas.md) | Trabalhando com Datas em JavaScript
+[25](https://github.com/michelelozada/JavaScript-Study-Notes/blob/main/files/js-basics/25-JavaScript-BOM.md) | JavaScript BOM
 
 &nbsp;    
 ### II. JavaScript DOM

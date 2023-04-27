@@ -19,17 +19,17 @@ function minhaFuncao() {
 }
 
 minhaFuncao();  // Retorno: 2
-console.log(exemploLet);  // Retorno: *exemploLet is not defined*
+console.log(exemploLet);  // Retorna: *exemploLet is not defined*
 ```
 
 &nbsp;   
 
 **2 - Declaração `const`**  
-Aqui a variável é de escopo de bloco, ou seja, pode ser acessada apenas neste escopo, sendo que uma vez atribuído valor a ela, este não pode ser redefinido.      
+Aqui a variável é de escopo de bloco, sendo que uma vez atribuído valor a ela, este não pode ser redefinido.      
 ```js
 
 const exemploConst = 5;
-exemploConst++;  // Retorno: *assignment to constant variable*
+exemploConst++;  // Retorna: *assignment to constant variable*
 ```
 
 &nbsp;   

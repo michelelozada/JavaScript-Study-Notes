@@ -110,6 +110,27 @@ button.addEventListener('click', (evento) => {
 
 &nbsp; 
 
+**Método `preventDefault()`**
+- Cancela um evento, se ele for cancelável.  
+- Dessa forma, o comportamento padrão atrelado a este evento não ocorrerá.  
+  - Clicar em um botão "Enviar" impede que ele envie um formulário.  
+  - Ao clicar em um link, evite que o link siga o URL.  
+
+```js
+
+// sintaxe básica
+evento.preventDefault();
+```
+```js
+
+// evitando que um formulário seja enviado, após o clique no botão 'enviar'
+formulario.addEventListener('submit', (e) => {
+  e.preventDefault();
+})
+```
+
+&nbsp; 
+
 <div align="center">
 <a href="https://github.com/michelelozada/JavaScript-Study-Notes">[Voltar à tela inicial do repositório]</a>
 </div>

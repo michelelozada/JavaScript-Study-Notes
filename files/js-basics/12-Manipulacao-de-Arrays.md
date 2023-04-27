@@ -8,24 +8,24 @@
 **Principais métodos para manipulação de arrays:**  
 Método | Descrição
 :---   | :---
-filter()   |
-includes() | Verifica se um item informado está dentro do array
-indexOf()  | Retorna o índice da primeira ocorrência de um valor especifico em um array. Se não houver este valor, retorna -1.
-join()     |
-length()   |
-map()      |
-pop()      | Remove o último elemento do array. Altera o array original. Retorna o item removido.
-push()     | Adiciona o elemento passado na *última posição* do array. Altera o array original.
-reduce()   |
-reverse()  | Inverte a ordem do array (último elemento vira primeiro e assim sucessivamente)
-shift()    | Retira o primeiro elemento do array. Altera array original e troca índice dos elementos remanescentes.
-sort()     | Organiza o array em classificação crescente.
-splice()   | Altera o conteúdo de um array, excluindo um valor dentro de um array, adicionando (ou não) outro(s) valor(es) ali.
-unshift()  | Adiciona o elemento passado na *primeira posição* do array. Altera o array original.  
+[filter()](#16---o-array-abaixo-%C3%A9-sobre-a-idade-que-estima-se-os-cinco-personagens-tinham-em-1987-retorne-as-idade-apenas-das-crianças-usando-o-método-filter) |
+[includes()](#10---verificando-se-os-elementos-abaixo-informados-estão-na-lista-através-do-método-includes) | Verifica se um valor informado está dentro do array
+[indexOf()](#5---retornando-o-índice-dos-elementos-informados-através-do-método-indexof) | Retorna o índice da primeira ocorrência de um valor especifico em um array. Se não houver este valor, retorna -1.
+[join()](#15---por-fim-apresentando-uma-string-gerada-a-partir-do-array-através-do-método-join) |
+[length()](#2---informando-quantos-elementos-há-neste-array-através-do-método-length) |
+[map()](#11---criando-um-novo-array-de-forma-que-ao-invés-de-aparecer-os-nomes-apareça-quem-é-quem-dentro-da-família-simpson-o-nome-da-lisa-porém-é-o-único-que-deve-continuar-aparecendo-na-lista) | Retorna um novo array com base no retorno da função que é passada a ela por parâmetro
+[pop()](#7---retirando-o-último-elemento-da-lista-através-do-método-pop) | Remove o último elemento do array. Altera o array original. Retorna o item removido.
+[push()](#6---adicionando-um-novo-elemento-no-fim-da-lista-através-do-método-push) | Adiciona o elemento passado na *última posição* do array. Altera o array original.
+[reduce()](#17---a-idade-somada-de-todos-os-integrantes-em-1987-é-89-anos-crie-um-algoritmo-que-chegue-a-este-resultado-através-do-método-reduce) |
+[reverse()](#13---apresentando-o-array-com-seus-itens-na-ordem-inversa-através-do-método-reverse) | Inverte a ordem do array (último elemento vira primeiro e assim sucessivamente)
+[shift()](#8--retirando-o-primeiro-elemento-da-lista-através-do-método-shift) | Retira o primeiro elemento do array. Altera array original e troca índice dos elementos remanescentes.
+[sort()](#14---apresentando-o-array-em-ordem-alfabética-através-do-método-sort) | Organiza o array em classificação crescente.
+[splice()](#12---removendo-os-itens-do-array-atual-os-apelidos-e-substituindo-os-por-novos-itens-no-caso-os-nomes-completos-através-do-método-splice)   | Altera o conteúdo de um array, excluindo um valor dentro de um array, adicionando (ou não) outro(s) valor(es) ali.
+[unshift()](#9---retornando-ao-estado-anterior-da-lista-através-do-método-unshift) | Adiciona o elemento passado na *primeira posição* do array. Altera o array original.  
 
 &nbsp;    
 
-**1 - O array de exemplo**  
+#### **1 - O array de exemplo**  
 ```js
 
 let osSimpsons = ['Homer','Merge','Bart','Lisa'];
@@ -33,7 +33,7 @@ let osSimpsons = ['Homer','Merge','Bart','Lisa'];
 
 &nbsp;  
 
-**2 - Informando quantos elementos há neste array, através do método `length()`**    
+#### **2 - Informando quantos elementos há neste array, através do método `length()`**    
 ```js
 
 console.log(osSimpsons.length); // Retorna: 4
@@ -41,7 +41,7 @@ console.log(osSimpsons.length); // Retorna: 4
 
 &nbsp;  
 
-**3 - Informando qual o conteúdo do índice 3**  
+#### **3 - Informando qual o conteúdo do índice 3**  
 ```js
 
 console.log(osSimpsons[3]); // Retorna: Lisa
@@ -49,7 +49,7 @@ console.log(osSimpsons[3]); // Retorna: Lisa
 
 &nbsp;  
 
-**4 - Incluindo mais um elemento à lista**  
+#### **4 - Incluindo mais um elemento à lista**  
 ```js
 
 osSimpsons[4] = 'Maggie';
@@ -60,7 +60,7 @@ console.log(osSimpsons);
 
 &nbsp;  
 
-**5 - Retornando o índice dos elementos informados, através do método `indexOf()`**    
+#### **5 - Retornando o índice dos elementos informados, através do método `indexOf()`**    
 
 ```js
 
@@ -70,7 +70,7 @@ console.log(osSimpsons.indexOf('Bart'));  // Retorna: 2
 
 &nbsp;  
 
-**6 - Adicionando um novo elemento no fim da lista, através do método `push()`**
+#### **6 - Adicionando um novo elemento no fim da lista, através do método `push()`**
 ```js
 
 osSimpsons.push('Vovô Simpson');
@@ -81,7 +81,7 @@ console.log(osSimpsons);
 
 &nbsp;  
 
-**7 - Retirando o último elemento da lista, através do método `pop()`**  
+#### **7 - Retirando o último elemento da lista, através do método `pop()`**  
 ```js
 
 osSimpsons.pop();
@@ -92,7 +92,7 @@ console.log(osSimpsons);
 
 &nbsp;  
 
-**8- Retirando o primeiro elemento da lista, através do método `shift()`**  
+#### **8- Retirando o primeiro elemento da lista, através do método `shift()`**  
 ```js
 
 osSimpsons.shift();
@@ -103,7 +103,7 @@ console.log(osSimpsons);
 
 &nbsp;  
 
-**9 - Retornando ao estado anterior da lista, através do método `unshift()`**  
+#### **9 - Retornando ao estado anterior da lista, através do método `unshift()`**  
 ```js
 
 osSimpsons.unshift('Homer');
@@ -114,7 +114,7 @@ console.log(osSimpsons);
 
 &nbsp;  
 
-**10 - Verificando se os elementos abaixo informados estão na lista, através do método `includes()`**  
+#### **10 - Verificando se os elementos abaixo informados estão na lista, através do método `includes()`**  
 
 ```js
 
@@ -125,7 +125,7 @@ console.log(osSimpsons.includes('Mr. Burns')); // Retorna: false
 
 &nbsp;   
 
-**11 - Criando um novo array de forma que, ao invés de aparecer os nomes, apareça quem é quem dentro da família Simpson. O nome da Lisa, porém, é o único que deve continuar aparecendo na lista!**  
+#### **11 - Criando um novo array de forma que, ao invés de aparecer os nomes, apareça quem é quem dentro da família Simpson. O nome da Lisa, porém, é o único que deve continuar aparecendo na lista!**  
 ```js
 
 let familia = osSimpsons.map(function (membroFamilia) {
@@ -152,7 +152,7 @@ console.log(familia);
 
 &nbsp;  
 
-**12 - Removendo os itens do array atual (os apelidos) e substituindo-os por novos itens (no caso, os nomes completos), através do método `splice()`**   
+#### **12 - Removendo os itens do array atual (os apelidos) e substituindo-os por novos itens (no caso, os nomes completos), através do método `splice()`**   
 &nbsp;  
 
 - *Primeiro parâmetro: índice onde se iniciará a alteração;*   
@@ -177,7 +177,7 @@ console.log(osSimpsons);
 ```
 &nbsp;  
 
-**13 - Apresentando o array com seus itens na ordem inversa, através do método `reverse()`** 
+#### **13 - Apresentando o array com seus itens na ordem inversa, através do método `reverse()`** 
 ```js
 
 console.log(osSimpsons.reverse());
@@ -194,7 +194,7 @@ console.log(osSimpsons.reverse());
 ```
 &nbsp;  
 
-**14 - Apresentando o array em ordem alfabética, através do método `sort()`**  
+#### **14 - Apresentando o array em ordem alfabética, através do método `sort()`**  
 ```js
 
 console.log(osSimpsons.sort());
@@ -212,7 +212,7 @@ console.log(osSimpsons.sort());
 
 &nbsp;  
 
-**15 - Por fim, apresentando uma string gerada a partir do array, através do método `join()`**   
+#### **15 - Por fim, apresentando uma string gerada a partir do array, através do método `join()`**   
 ```js
 
 console.log(osSimpsons.join(espacamento = ' - '));
@@ -222,7 +222,7 @@ console.log(osSimpsons.join(espacamento = ' - '));
 
 &nbsp;  
 
-**16 - O array abaixo é sobre a idade que (estima-se!) os cinco personagens tinham em 1987. Retorne as idade *apenas* das crianças, usando o método `filter()`**  
+#### **16 - O array abaixo é sobre a idade que (estima-se!) os cinco personagens tinham em 1987. Retorne as idade *apenas* das crianças, usando o método `filter()`**  
 ```js
 
 const idades1987 = [36, 34, 10, 8, 1].filter(function (idade) {
@@ -235,7 +235,7 @@ console.log(`Idades apenas das crianças: ${idades1987}`);
 
 &nbsp;  
 
-**17 - A idade somada de todos os integrantes em 1987 é 89 anos. Crie um algoritmo que chegue a este resultado, através do método `reduce()`**  
+#### **17 - A idade somada de todos os integrantes em 1987 é 89 anos. Crie um algoritmo que chegue a este resultado, através do método `reduce()`**  
 ```js
 
 const somaIdades = [36,34,10,8,1].reduce(function(soma,idade){

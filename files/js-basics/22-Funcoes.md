@@ -4,7 +4,7 @@
 &nbsp;
      
 &nbsp;  
-**Funções**  
+**1 - Funções**  
 - Blocos de códigos que só são executados quando chamados.  
 - Funções pode retormar ou não valores.  
 - Variáveis declaradas dentro da função só valem dentro da função (escopo local).  
@@ -43,6 +43,108 @@ let num = 7;
 console.log(`Este é o array resultante: [${criarNovoArray(originalArray, num)}].`);
 
 // Retorna: Este é o array resultante: [1,2,3,4,5,6]. 
+```
+
+&nbsp;
+
+**2 - Função anônima**
+&nbsp;  
+
+- É uma função sem nome, sendo que para chamá-la temos de atribuí-la a uma variável.  
+&nbsp;  
+
+- Pode ser usada como argumento em outras funções.  
+&nbsp;  
+
+```js
+
+// Sintaxe básica
+let exemplo = function() {
+  console.log('Esta é uma função anônima');
+}
+```
+```js
+
+setTimeout(function() {
+  console.log('Foi impresso na tela após 3 segundos');
+}, 3000)
+```
+
+&nbsp;  
+
+**3 - Arrow function**
+&nbsp;  
+
+É uma função anônima, portanto, para ser executada chamamos a variável na qual esta função foi atribuída.  
+&nbsp;  
+
+```js
+
+// Sintaxe básica  
+
+(num1, num2) => num1 + num2; 
+```
+```js
+
+let soma = (num1, num2) => num1 + num2;
+
+console.log(c(8, 10));  // Retorna: 18
+```
+
+&nbsp;    
+Ou, alternativamente:  
+```js
+
+(num1, num2) => {
+  return num1 + num2;
+};
+```
+```js
+
+let resultado = (num1, num2) => {
+  let operacao;
+  if (num1 >= 5) {
+    operacao = num1 + num2;
+  } else {
+    operacao = num1 * num2;
+  }
+  return operacao;
+}
+
+console.log(resultado(4, 10));  // Retorna: 40
+```
+
+&nbsp;  
+
+:arrow_forward: **Exercício:** Escreva um algoritmo que leia dois números e faça as operações de soma, subtração, multiplicação e divisão. Devem ser usadas arrow functions para isso.   
+
+```js
+
+// As arrow functions
+let soma = (num1,num2) => num1 + num2;
+let subtracao = (num1,num2) => num1 - num2;
+let multiplicacao = (num1,num2) => num1 * num2;
+let divisao = (num1,num2) => num1 / num2;
+
+// O programa principal
+let num1 = parseInt(prompt('Por favor, digite o primeiro número:')); 
+let num2 = parseInt(prompt('Digite o segundo número:')); 
+
+console.log('Resultado das operações');
+console.log(`Adição: ${num1} + ${num2} = ${soma(num1,num2)}`);
+console.log(`Subtração: ${num1} - ${num2} = ${subtracao(num1,num2)}`);
+console.log(`Multiplicação: ${num1} x ${num2} = ${multiplicacao(num1,num2)}`);
+console.log(`Divisão: ${num1} / ${num2} = ${divisao(num1,num2)}`);
+
+/* Retorna:
+ Por favor, digite o primeiro número: // Input: 50
+ Digite o segundo número: // Input: 10
+ Resultado das operações
+ Adição: 50 + 10 = 60
+ Subtração: 50 - 10 = 40
+ Multiplicação: 50 x 10 = 500
+ Divisão: 50 / 10 = 5
+*/
 ```
 
 &nbsp;

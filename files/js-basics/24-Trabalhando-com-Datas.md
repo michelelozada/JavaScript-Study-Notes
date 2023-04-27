@@ -17,26 +17,28 @@ console.log(dataAtual);
 
 &nbsp;  
 
-Obtendo somente o horário local atual:  
+Obtendo somente hora e minuto ***local*** atual:  
 ```js
 
-const horaAtual = new Date();
-console.log(horaAtual.getHours());
+const dataAgora = new Date();
+let dataAgoraLocal = dataAgora.getHours() + ':' + dataAgora.getMinutes();
+console.log("A hora local é", dataAgoraLocal);
 ```
 
 &nbsp;  
 
-Recebendo uma data vinda de um formulário (via **`input type="date"`**):  
+:arrow_forward: Recebendo uma data de nascimento vinda de um formulário HTML  
+
 ```js
 
 function validaDataNascimento(input) {
-  const dataRecebida = new Date(input.value);
+  const dataNascimentoInformada = new Date(input.value);
 }
 ```
 
 &nbsp;  
 
-Recebendo uma data de nascimento e somando a ela 18 anos (útil para validações de formulários):  
+:arrow_forward: Recebendo  data de nascimento e somando a ela 18 anos *(útil para validações de formulários)*:  
 ```js
 
 function maiorQue18(dataNascimentoInformada) {
@@ -48,6 +50,12 @@ function maiorQue18(dataNascimentoInformada) {
 
   return dataNascimentoMais18 <= dataAtual;
   // caso true, pessoa maior de idade
+}
+
+if (maiorQue18(dataRecebida)) {
+	console.log('Idade permitida para cadastramento (usuário maior de idade)');
+} else {
+	console.log('Idade não permitida para cadastramento (usuário menor de 18 anos)');
 }
 ```
 
