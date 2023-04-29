@@ -33,7 +33,7 @@ Relação de elementos HTML, organizados em forma de árvore, na qual certos ele
 &nbsp; 
 
 **3.2. Element**  
-São as tags.     
+São os elementos HTML.  
 
 &nbsp; 
 

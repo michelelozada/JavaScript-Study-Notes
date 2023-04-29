@@ -6,8 +6,8 @@
 &nbsp;    
 **Eventos**   
 - São ações que são disparadas quando o usuário ou o navegador manipulam uma página.   
-- Ou seja, é ativada uma função quando uma determinada ação for produzida pelo usuário ou pelo navegador.  
-- Exemplos de eventos: clicar em um botão, selecionar um input para inserir dados ou o enviar um formulário.  
+- Ou seja, é ativada uma função quando esta ação for produzida pelo usuário ou pelo navegador.  
+- Exemplos de eventos: clicar em um botão, selecionar um input para inserir dados, enviar um formulário, etc.
 
 &nbsp;    
 
@@ -15,7 +15,7 @@
 | **Evento**    | **Dispara uma ação quando...** |
 | :---          | :---                           |
 | onBlur        | é removido o foco do elemento  |
-| onChange      | o elemento perde o foco e tem seu valor alterado |
+| onChange      | o elemento sofre uma alteração/tem seu valor alterado |
 | onClick       | o elemento é clicado uma vez pelo usuário |
 | onDoubleClick | o elemento é clicado duas vezes pelo usuário |
 | onFocus       | o elemento recebe o foco |
@@ -35,8 +35,8 @@
 
 <button onclick="alert()">Botão de exemplo</button>
 
-// O atributo da tag deve ser o evento que foi determinado.  
-// No valor do atributo vai o que deve acontecer quando o evento for disparado.  
+// O atributo da tag deve ser o evento que foi determinado
+// No valor do atributo vai o que deve acontecer quando o evento for disparado
 ```
 
 &nbsp;   
@@ -71,7 +71,7 @@ botaoEnvio.onclick = exibirAlerta;
 &nbsp;  
 
 **Método `addEventListener()`**  
-Permite que seja atrelada um manipulador de eventos a um determinado elemento HTML, sendo que esta função será chamada quando um 
+Permite que seja atrelado um manipulador de eventos a um determinado elemento HTML, sendo que esta função será chamada quando um 
 determinado evento acontecer.  
 
 ```js
@@ -82,7 +82,7 @@ target.addEventListener(event, function, useCapture)
 // target: é o elemento HTML a que estará associado este método 
 // event: definição de qual é o tipo do evento (click, submit, focus, etc)
 // function: qual é a função a ser executada quando o evento for detectado
-// useCapture: opcional; por default, valor é false. 
+// useCapture: opcional; por default, seu valor é false. 
 ```
 
 &nbsp;  
@@ -113,20 +113,29 @@ button.addEventListener('click', (evento) => {
 **Método `preventDefault()`**
 - Cancela um evento, se ele for cancelável.  
 - Dessa forma, o comportamento padrão atrelado a este evento não ocorrerá.  
-  - Clicar em um botão "Enviar" impede que ele envie um formulário.  
-  - Ao clicar em um link, evite que o link siga o URL.  
 
 ```js
 
 // sintaxe básica
-evento.preventDefault();
+event.preventDefault();
 ```
 ```js
 
-// evitando que um formulário seja enviado, após o clique no botão 'enviar'
+// evitando que um formulário seja enviado, ao clique no botão 'enviar'
 formulario.addEventListener('submit', (e) => {
   e.preventDefault();
 })
+```
+
+&nbsp; 
+
+**Propriedade `target`**  
+Retorna o elemento onde ocorreu um evento
+
+```js
+
+// sintaxe básica
+event.target 
 ```
 
 &nbsp; 

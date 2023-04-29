@@ -11,7 +11,6 @@ Método        | Descrição
 [concat()](#por-fim-realize-a-concatenação-das-strings-para-impressão-da-citação-e-do-seu-autor) |
 [indexOf()](#localize-as-palavras-sei-e-compreendo-na-string-frase) | Retorna a posição onde começa a primeira string informada
 [lastIndexOf()](#localize-as-palavras-sei-e-compreendo-na-string-frase) | Retorna a posição onde começa a última string informada
-[length()](#informe-quantos-caracteres-tem-a-string-frase) | Retorna o tamanho da string 
 [replace()](#substitua-a-identificação-filósofo-ateniense-por-pensador-grego) |
 [slice()](#extraia-da-string-frase-a-versão-compacta-mais-conhecida-desta-citação) |
 [split()](#imprima-a-string-fraseredux-sendo-uma-palavra-por-linha) |
@@ -20,7 +19,13 @@ Método        | Descrição
 
 &nbsp;   
 
-#### **Exemplo a ser utilizado:**  
+Propriedade   | Descrição  
+:---          | :---
+[length](#informe-quantos-caracteres-tem-a-string-frase) | Retorna o tamanho da string 
+
+&nbsp;   
+
+#### :arrow_forward: **Exemplo a ser utilizado:**  
 ```js
 
 const frase = "Só sei que nada sei, e o fato de saber isso, me coloca em vantagem sobre aqueles que acham que sabem alguma coisa.";

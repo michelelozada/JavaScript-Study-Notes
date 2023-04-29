@@ -12,18 +12,18 @@
 ```js
 
 const cestaDeFrutas = [
-    'laranja',
-    'maçã',
-    'banana',
-    'ameixa',
+  'laranja',
+  'maçã',
+  'banana',
+  'ameixa'
 ];
 
 let cont = 0; // variável de controle
 
 console.log("Impressão de todas as frutas da cesta:");
 while (cont < cestaDeFrutas.length) {
-    console.log((cont + 1) + " - " + cestaDeFrutas[cont]);
-    cont += 1;
+  console.log((cont + 1) + " - " + cestaDeFrutas[cont]);
+  cont += 1;
 }
 
 /* Retorna:
@@ -41,10 +41,10 @@ while (cont < cestaDeFrutas.length) {
 ```js
 
 const cestaDeFrutas = [
-    'laranja',
-    'maçã',
-    'banana',
-    'ameixa',
+  'laranja',
+  'maçã',
+  'banana',
+  'ameixa'
 ];
 
 let contador = 0;
@@ -53,11 +53,11 @@ let frutaPesquisada = "AMEIXA";
 
 console.log("Pesquisa por uma fruta da cesta:");
 while (contador < cestaDeFrutas.length) {
-    if (cestaDeFrutas[contador].toLowerCase() == frutaPesquisada.toLowerCase()) {
-        frutaExiste = true;
-        break;
-    }
-    contador += 1;
+  if (cestaDeFrutas[contador].toLowerCase() == frutaPesquisada.toLowerCase()) {
+    frutaExiste = true;
+    break;
+  }
+  contador += 1;
 }
 const resposta = frutaExiste == true ? "Sim" : "Não";
 console.log("Tem " + frutaPesquisada.toLowerCase() + " na cesta? " + resposta);
@@ -75,15 +75,15 @@ console.log("Tem " + frutaPesquisada.toLowerCase() + " na cesta? " + resposta);
 ```js
 
 const cestaDeFrutas = [
-    'laranja',
-    'maçã',
-    'banana',
-    'ameixa',
+  'laranja',
+  'maçã',
+  'banana',
+  'ameixa',
 ];
 
 console.log("Impressão de todas as frutas da cesta:");
 for (let i = 0; i < cestaDeFrutas.length; i++) {
-    console.log((i + 1) + " - " + cestaDeFrutas[i]);
+  console.log((i + 1) + " - " + cestaDeFrutas[i]);
 }
 
 /* Retorna:
@@ -105,10 +105,10 @@ let frutaExiste = false;
 let frutaPesquisada = "limão";
 
 for (let i = 0; i < cestaDeFrutas.length; i++) {
-    if (cestaDeFrutas[i].toLowerCase() == frutaPesquisada.toLowerCase()) {
-        frutaExiste = true;
-        break;
-    }
+  if (cestaDeFrutas[i].toLowerCase() == frutaPesquisada.toLowerCase()) {
+    frutaExiste = true;
+    break;
+  }
 }
 const resposta = frutaExiste == true ? "Sim" : "Não";
 console.log("Tem " + frutaPesquisada.toLowerCase() + " na cesta? " + resposta);
@@ -125,15 +125,15 @@ console.log("Tem " + frutaPesquisada.toLowerCase() + " na cesta? " + resposta);
 ```js
 
 const cestaDeFrutas = [
-    'laranja',
-    'maçã',
-    'banana',
-    'ameixa',
+  'laranja',
+  'maçã',
+  'banana',
+  'ameixa'
 ];
 
 console.log('Impressão de todas as frutas da cesta:');
 cestaDeFrutas.forEach(function(item) {
-	console.log('- ' + item)
+  console.log('- ' + item)
 });
 
 /* Retorna:
@@ -141,16 +141,17 @@ cestaDeFrutas.forEach(function(item) {
  - laranja
  - maçã
  - banana
+ - ameixa
 */
 ```
 
 &nbsp;
 
-Mesmo exemplo acima, usando uma arrow function:  
+**Mesmo exemplo acima, usando uma arrow function:**  
 ```js
 
 cestaDeFrutas.forEach(item => {
-    console.log('- ' + item);
+  console.log('- ' + item);
 });
 ```
 

@@ -6,15 +6,15 @@
 &nbsp;  
 **BOM (aka Browser Object Method)**  
 Objetos relativos à navegação web   
-  - No primeiro nível está o objeto window  
-	- No segundo nível estão os objetos: document, screen, location, history, navigator e frames  
+- No primeiro nível está o objeto window  
+- No segundo nível estão os objetos: document, screen, location, history, navigator e frames  
 
 &nbsp; 
 
 **1 - Método prompt()**  
 \- Solicita e captura entrada de texto feita pelo usuário   
 \- Retorna o que foi digitado como uma string  
-\- Portanto, se o intuito for ler um número inteiro ou decimal fornecidos pelo método **`prompt()`**, deve-se converter o valor digitado através de **`parseInt()`** ou **`parseFloat()`**, respectivamente  
+\- Portanto, se o intuito for ler um número inteiro ou decimal fornecidos pelo método **`prompt()`**, deve-se converter o valor digitado através de, respectivamente, **`parseInt()`** ou **`parseFloat()`**  
      
 &nbsp;     
 
