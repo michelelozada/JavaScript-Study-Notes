@@ -6,15 +6,18 @@
 &nbsp;  
 **BOM (aka Browser Object Method)**  
 Objetos relativos à navegação web   
-- No primeiro nível está o objeto window  
-- No segundo nível estão os objetos: document, screen, location, history, navigator e frames  
+- No primeiro nível está o objeto **window**  
+- No segundo nível estão os objetos: **document**, **screen**, **location**, **history**, **navigator** e **frames** 
 
 &nbsp; 
+**1 - Objeto window**  
+\- Representa uma janela aberta em um navegador.
+&nbsp;     
 
-**1 - Método prompt()**  
-\- Solicita e captura entrada de texto feita pelo usuário   
+**1.1 - Método prompt()**  
+\- Exibe uma caixa de diálogo que solicita e captura entrada de texto feita pelo usuário   
 \- Retorna o que foi digitado como uma string  
-\- Portanto, se o intuito for ler um número inteiro ou decimal fornecidos pelo método **`prompt()`**, deve-se converter o valor digitado através de, respectivamente, **`parseInt()`** ou **`parseFloat()`**  
+\- Se o intuito for ler um número inteiro ou decimal fornecidos pelo método **`prompt()`**, deve-se converter o valor digitado através de, respectivamente, **`parseInt()`** ou **`parseFloat()`**  
      
 &nbsp;     
 
@@ -51,11 +54,17 @@ Objetos relativos à navegação web
 
 &nbsp;
 
-**2 - Location**  
+**2 - Objeto location**  
 
 ```js
 
+// Redirecionamento
 window.location.href = “endereco-do-arquivo-aqui”;
+```
+```js
+
+// Capturando a URL da página 
+const url = window.location.href;
 ```
 
 &nbsp;

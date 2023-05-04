@@ -4,10 +4,13 @@
 &nbsp;
      
 &nbsp;  
-**1 - Funções**  
-- Blocos de códigos que só são executados quando chamados.  
-- Funções pode retormar ou não valores.  
-- Variáveis declaradas dentro da função só valem dentro da função (escopo local).  
+:one: **Funções**  
+
+\- São blocos de códigos que só são executados quando chamados.  
+\- Podem retornar um resultado para o trecho de código que a chamou.  
+\- Variáveis declaradas dentro da função só são visíveis dentro da função (escopo local).  
+\- Uma função também pode receber como parâmetro ou retornar como resposta arrays, objetos e funções.  
+
 ```js
 
 // Sintaxe básica
@@ -47,15 +50,10 @@ console.log(`Este é o array resultante: [${criarNovoArray(originalArray, num)}]
 
 &nbsp;
 
-**2 - Função anônima**
-&nbsp;  
+:two: **Função anônima**  
 
-- É uma função sem nome, sendo que para chamá-la temos de atribuí-la a uma variável.  
-&nbsp;  
-
-- Pode ser usada como argumento em outras funções.  
-&nbsp;  
-
+\- É uma função sem nome, sendo que para chamá-la temos de atribuí-la a uma variável.  
+\- Pode ser usada como argumento em outras funções.  
 ```js
 
 // Sintaxe básica
@@ -72,12 +70,9 @@ setTimeout(function() {
 
 &nbsp;  
 
-**3 - Arrow function**
-&nbsp;  
+:three: **Arrow function**  
 
 É uma função anônima, portanto, para ser executada chamamos a variável na qual esta função foi atribuída.  
-&nbsp;  
-
 ```js
 
 // Sintaxe básica  

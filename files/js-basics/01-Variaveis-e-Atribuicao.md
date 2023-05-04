@@ -3,13 +3,19 @@
 > GitHub: @michelelozada
 &nbsp;
      
-&nbsp;   
+&nbsp;  
+**1 - Escopo**  
+A visibilidade das variáveis depende de onde uma variável é declarada. O escopo pode ser:  
+- Global  
+- Local 
+
+&nbsp;  
 
 Em JavaScript, a declaração de uma variável está relacionada ao seu **escopo**, podendo ser:
 
 &nbsp;   
 
-**1 - Declaração `let`**  
+**2.1 - Declaração `let`**  
 Aqui a variável é de escopo de bloco, ou seja, pode ser acessada apenas neste escopo, não podendo ser "enxergada" fora dele.      
 ```js
 
@@ -24,7 +30,7 @@ console.log(exemploLet);  // Retorna: *exemploLet is not defined*
 
 &nbsp;   
 
-**2 - Declaração `const`**  
+**2.2 - Declaração `const`**  
 Aqui a variável é de escopo de bloco, sendo que uma vez atribuído valor a ela, este não pode ser redefinido.      
 ```js
 
@@ -79,13 +85,13 @@ registro_infantil.data = '30/03/2022'
 
 &nbsp;   
 
-**3 - Declaração `var`**  
+**2.3 - Declaração `var`**  
 Aqui a variável é de escopo global. Justamente por isso e devido também à possibilidade de uma eventual (e acidental!) sobreposição de valores, essa declaração é encontrada hoje em dia apenas em sistemas legados.  
 ```js
 
 function minhaFuncao() {
-   var variavelVar = 3;
-   console.log(variavelVar); 
+  var variavelVar = 3;
+  console.log(variavelVar); 
 }
 
 var variavelVar = 4;

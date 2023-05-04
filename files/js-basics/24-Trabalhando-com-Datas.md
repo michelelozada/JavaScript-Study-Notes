@@ -5,10 +5,11 @@
      
 &nbsp;  
 
-Através da classe **`Date`**, é possível trabalhar com horas e datas.   
+Através da classe **`Date`**, é possível trabalhar com horas e datas.
+
 &nbsp;  
 
-Obtendo a data e horário atual:   
+#### :white_medium_square: Obtendo a data e hora atual:   
 ```js
 
 const dataAtual = new Date();
@@ -17,17 +18,31 @@ console.log(dataAtual);
 
 &nbsp;  
 
-Obtendo somente hora e minuto ***local*** atual:  
+####  :white_medium_square: Obtendo somente hora e minuto ***local*** atual:  
 ```js
 
-const dataAgora = new Date();
-let dataAgoraLocal = dataAgora.getHours() + ':' + dataAgora.getMinutes();
-console.log("A hora local é", dataAgoraLocal);
+const dataAtual  = new Date();
+let dataAtualLocal = dataAtual.getHours() + ':' + dataAtual.getMinutes() + ':' + dataAtual.getSeconds();
+console.log("A hora local é",dataAtualLocal);
 ```
 
 &nbsp;  
 
-:arrow_forward: Recebendo uma data de nascimento vinda de um formulário HTML  
+####  :white_medium_square: Obtendo o dia da semana: 
+```js
+
+const dataAtual  = new Date();
+
+console.log(dataAtual.getDay());
+console.log(dataAtual.getMonth());
+console.log(dataAtual.getFullYear());
+
+// Se for domingo ou janeiro retorna 0; se for segunda ou fevereiro retorna 1; e assim por diante...
+```
+
+&nbsp;  
+
+:arrow_forward: **Exemplo:** Recebendo como parâmetro uma data de nascimento vinda de um formulário HTML  
 
 ```js
 
@@ -38,7 +53,7 @@ function validaDataNascimento(input) {
 
 &nbsp;  
 
-:arrow_forward: Recebendo  data de nascimento e somando a ela 18 anos *(útil para validações de formulários)*:  
+:arrow_forward: **Exemplo:** Recebendo  data de nascimento e somando a ela 18 anos *(útil para validações de formulários)*:  
 ```js
 
 function maiorQue18(dataNascimentoInformada) {
