@@ -130,7 +130,7 @@ formulario.addEventListener('submit', (e) => {
 &nbsp; 
 
 **Propriedade `target`**  
-Retorna o elemento onde ocorreu um evento
+Retorna o elemento que executou um evento
 
 ```js
 
