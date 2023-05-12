@@ -12,7 +12,7 @@ Método | Descrição
 [includes()](#10---verificando-se-os-elementos-abaixo-informados-estão-na-lista-através-do-método-includes) | Verifica se um valor informado está dentro do array
 [indexOf()](#5---retornando-o-índice-dos-elementos-informados-através-do-método-indexof) | Retorna o índice da primeira ocorrência de um valor especifico em um array. Se não houver este valor, retorna -1.
 [join()](#15---por-fim-apresentando-uma-string-gerada-a-partir-do-array-através-do-método-join) |
-[map()](#11---criando-um-novo-array-de-forma-que-ao-invés-de-aparecer-os-nomes-apareça-quem-é-quem-dentro-da-família-simpson-o-nome-da-lisa-porém-é-o-único-que-deve-continuar-aparecendo-na-lista) | Retorna um novo array com base no retorno da função que é passada a ela por parâmetro
+[map()](#11---criando-um-novo-array-de-forma-que-ao-invés-de-aparecer-os-nomes-apareça-quem-é-quem-dentro-da-família-simpson-o-nome-da-lisa-porém-é-o-único-que-deve-continuar-aparecendo-na-lista) | Retorna um novo array com base no retorno da função que é passada por parâmetro
 [pop()](#7---retirando-o-último-elemento-da-lista-através-do-método-pop) | Remove o último elemento do array. Altera o array original. Retorna o item removido.
 [push()](#6---adicionando-um-novo-elemento-no-fim-da-lista-através-do-método-push) | Adiciona o elemento passado na *última posição* do array. Altera o array original.
 [reduce()](#17---a-idade-somada-de-todos-os-integrantes-em-1987-é-89-anos-crie-um-algoritmo-que-chegue-a-este-resultado-através-do-método-reduce) |
@@ -26,7 +26,7 @@ Método | Descrição
 
 Propriedade | Descrição
 :---   | :---
-[length](#2---informando-quantos-elementos-há-neste-array-através-da-propriedade-length) | Retorna o tamanho da string 
+[length](#2---informando-quantos-elementos-há-neste-array-através-da-propriedade-length) | Retorna o o número de elementos em um array
 
 &nbsp;    
 
@@ -158,8 +158,6 @@ console.log(familia);
 &nbsp;  
 
 #### **12 - Removendo os itens do array atual (os apelidos) e substituindo-os por novos itens (no caso, os nomes completos), através do método `splice()`**   
-&nbsp;  
-
 - *Primeiro parâmetro: índice onde se iniciará a alteração;*   
 - *Segundo parâmetro: nº de itens da lista que devem ser removidos, a partir do índice definido anteriormente;*  
 - *(opcional) Demais parâmetros: inclusão novos itens (strings) a ser adicionados à lista, onde outros itens foram removidos).*    
