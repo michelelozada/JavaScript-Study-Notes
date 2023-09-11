@@ -140,6 +140,15 @@ event.target
 
 &nbsp; 
 
+**Propriedade `value`**  
+Retorna o valor do elemento que executou um evento
+```js
+
+event.target.value
+```
+
+&nbsp; 
+
 <div align="center">
 <a href="https://github.com/michelelozada/JavaScript-Study-Notes">[Voltar à tela inicial do repositório]</a>
 </div>

@@ -21,7 +21,7 @@ document.createElement(elemento);
 &nbsp; 
 
 - **Método `appendChild()`**  
-Adiciona um novo elemento ao fim da lista de filhos do elemento-pai.   
+Adiciona um elemento-filho ao fim da lista de filhos do elemento-pai.   
 ```js
 
 element.appendChild(novo-elemento);

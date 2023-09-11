@@ -15,7 +15,7 @@ Através de alguns métodos aplicados junto ao objeto **`document`**, o JavaScri
 Localiza um elemento através do nome da classe passada, retornando um array dos elementos que existirem no documento.  
 ```js
 
-document.getElementsByClass(".nome-da-classe");
+document.getElementsByClass("nome-da-classe");
 ```
 
 &nbsp;  
